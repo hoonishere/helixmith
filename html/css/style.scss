@@ -8,13 +8,13 @@ $lightGray: #B5B5B5;
 $pointColor1: #C54344;
 
 /*common*/
-html,body{
+html, body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-.divider{
+.divider {
   width: 100%;
   height: 1px;
   max-width: 1160px;
@@ -22,132 +22,150 @@ html,body{
   margin: 50px auto;
 }
 
-.fontBold{
+.fontBold {
   font-weight: bold;
 }
 
-.fontMedium{
+.fontMedium {
   font-weight: 500;
 }
 
-.textAlignCenter{
+.textAlignCenter {
   text-align: center;
 }
 
-.pointColorText{
+.pointColorText {
   color: $pointColor1;
 }
 
-.marginTop30{
-  margin-top: 30px!important;
+.marginTop30 {
+  margin-top: 30px !important;
 }
 
-.marginTop35{
-  margin-top: 35px!important;
+.marginTop35 {
+  margin-top: 35px !important;
 }
 
-.marginTop50{
-  margin-top: 50px!important;
+.marginTop50 {
+  margin-top: 50px !important;
 }
 
-.headImage1{
+.headImage1 {
   background: url("../img/head_img.jpg") no-repeat center center;
   background-size: cover;
 }
 
-.headImage2{
+.headImage2 {
   background: url("../img/head_img2.jpg") no-repeat center center;
   background-size: cover;
 }
 
-.headImage3{
+.headImage3 {
   background: url("../img/head_img3.jpg") no-repeat center center;
   background-size: cover;
 }
 
-.headImage4{
+.headImage4 {
   background: url("../img/head_img4.jpg") no-repeat center center;
   background-size: cover;
 }
 
-.headText{
+.headText {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
+
 /*//common*/
 
 /*본문 스타일*/
-.wrapper{
+.wrapper {
   width: 100%;
   height: auto;
 }
 
-a{
+a {
   text-decoration: none;
   cursor: pointer;
 }
 
-.headNavigation{
+.headNavigation {
   width: 100%;
   /*background: $pointColor1;*/
-  .inside{
+  .inside {
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
-    .menus{
+
+    .menus {
       width: 100%;
       display: flex;
       padding-top: 35px;
-      .left{
+
+      .left {
         width: 30%;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
         font-size: 20px;
         color: $white;
+
+        a {
+          color: $white;
+        }
       }
-      .right{
+
+      .right {
         width: 70%;
-        ul{
+
+        ul {
           display: flex;
           justify-content: flex-end;
-          li{
+
+          li {
             font-size: 15px;
             color: $white;
             margin-right: 50px;
-            &:last-child{
+
+            &:last-child {
               margin-right: 0;
             }
-            a{
+
+            a {
               color: $white;
             }
           }
         }
       }
     }
-    .content{
+
+    .content {
       width: 100%;
       text-align: center;
       padding-top: 100px;
       padding-bottom: 190px;
-      h1{
+
+      h1 {
         font-size: 80px;
         color: $white;
       }
-      p{
+
+      p {
         font-size: 16px;
         line-height: 30px;
         color: $white;
         padding-top: 35px;
       }
     }
-    .subContent{
+
+    .subContent {
       padding-bottom: 100px;
-      h1{
+
+      h1 {
         font-size: 50px;
         color: $white;
         margin-top: 15px;
       }
-      h2{
+
+      h2 {
         font-size: 20px;
         color: $white;
       }
@@ -155,83 +173,101 @@ a{
   }
 }
 
-.section{
+.section {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
   /*1*/
-  .first{
+  .first {
     display: flex;
     color: $black;
-    .left{
+
+    .left {
       width: 50%;
       margin-right: 40px;
-      img{
+
+      img {
         width: 100%;
       }
     }
-    .right{
+
+    .right {
       width: 50%;
-      h1{
+
+      h1 {
         font-size: 35px;
         line-height: 50px;
       }
-      p{
+
+      p {
         font-size: 15px;
         line-height: 30px;
         padding-top: 25px;
         padding-bottom: 40px;
       }
-      a{
+
+      a {
         color: $black;
         transition: color .2s ease-in-out;
-        &:hover{
+
+        &:hover {
           color: $pointColor1;
         }
       }
-      .button{
+
+      .button {
         display: flex;
         align-items: center;
         font-size: 15px;
         font-weight: 700;
-        img{
+
+        img {
           margin-right: 15px;
         }
       }
     }
   }
+
   /*//1*/
   /*2*/
-  .second{
-    .head{
+  .second {
+    .head {
       text-align: center;
-      h1{
+
+      h1 {
         font-size: 35px;
       }
     }
-    .content{
+
+    .content {
       width: 100%;
-      ul{
+
+      ul {
         display: flex;
-        a{
+
+        a {
           color: $black;
         }
-        li{
+
+        li {
           width: 100%;
           margin-right: 25px;
           padding: 25px;
           text-align: center;
           transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
-          &:last-child{
+
+          &:last-child {
             margin-right: 0;
           }
-          h2{
+
+          h2 {
             font-weight: 400;
             color: $lightGray;
             font-size: 12px;
             text-align: left;
           }
-          h1{
+
+          h1 {
             color: $black;
             font-size: 25px;
             font-weight: 700;
@@ -239,59 +275,72 @@ a{
             margin-bottom: 15px;
             text-align: left;
           }
-          p{
+
+          p {
             font-size: 15px;
             line-height: 30px;
             text-align: left;
           }
-          img{
+
+          img {
             margin-top: 25px;
             width: 100%;
             max-width: 180px;
           }
-          &:hover{
-            box-shadow: 10px 10px 80px 0px rgba(0,0,0,0.1);
+
+          &:hover {
+            box-shadow: 10px 10px 80px 0px rgba(0, 0, 0, 0.1);
             transform: translate(0, -5px);
           }
         }
       }
     }
   }
+
   /*//2*/
   /*3*/
-  .third{
-    .head{
+  .third {
+    .head {
       text-align: center;
-      h1{
+
+      h1 {
         font-size: 35px;
       }
-      p{
+
+      p {
         font-size: 15px;
         line-height: 30px;
         margin-top: 30px;
       }
     }
-    .content{
+
+    .content {
       width: 100%;
-      ul{
+
+      ul {
         display: flex;
-        li{
+
+        li {
           width: 100%;
           margin-right: 100px;
           text-align: center;
-          &:last-child{
+
+          &:last-child {
             margin-right: 0;
           }
-          h1{
+
+          h1 {
             font-size: 20px;
             font-weight: 700;
             margin-top: 30px;
             margin-bottom: 15px;
           }
-          a{
+
+          a {
             color: $black;
             transition: color .2s ease-in-out;
-            &:hover{
+
+            &:hover {
               color: $pointColor1;
             }
           }
@@ -299,241 +348,288 @@ a{
       }
     }
   }
+
   /*//3*/
 }
+
 /*footer*/
-.footer{
+.footer {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
-  .menus{
+
+  .menus {
     font-size: 15px;
-    a{
+
+    a {
       color: $black;
       transition: color .2s ease-in-out;
-      &:hover{
+
+      &:hover {
         color: $pointColor1;
       }
     }
   }
-  .info{
+
+  .info {
     display: flex;
     font-size: 12px;
     line-height: 24px;
     margin-top: 30px;
-    .left{
+
+    .left {
       width: 50%;
     }
-    .right{
+
+    .right {
       width: 50%;
       text-align: right;
     }
   }
 }
+
 /*//footer*/
 /*본문 스타일*/
 
 
-
 /*서브페이지*/
-.aboutSection{
+.aboutSection {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
   /*1*/
-  .first{
-    .text{
+  .first {
+    .text {
       padding: 0 50px 50px 50px;
       box-sizing: border-box;
-      &:last-child{
+
+      &:last-child {
         padding-bottom: 0;
       }
-      h1{
+
+      h1 {
         font-size: 35px;
         line-height: 50px;
       }
-      p{
+
+      p {
         font-size: 15px;
         line-height: 30px;
         margin-top: 20px;
       }
-      a{
+
+      a {
         color: $pointColor1;
         text-decoration: underline;
       }
     }
-    .image{
+
+    .image {
       width: 100%;
       height: 350px;
       overflow: hidden;
-      img{
+
+      img {
         width: 100%;
       }
     }
   }
+
   /*//1*/
   /*team member*/
-  .member{
+  .member {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    h1{
+
+    h1 {
       color: $black;
       font-size: 35px;
     }
-    h2{
+
+    h2 {
       color: $pointColor1;
       font-size: 15px;
       margin: 20px 0;
     }
-    p{
+
+    p {
       font-size: 15px;
       line-height: 30px;
       color: $black;
       text-align: left;
     }
   }
+
   /*//team member*/
 }
 
 /*VM202, Pipeline*/
-.vm202Section{
+.vm202Section {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
   /*1*/
-  .first{
-    .text{
+  .first {
+    .text {
       padding: 0 50px 50px 50px;
       max-width: 850px;
-      .head{
-        h1{
+
+      .head {
+        h1 {
           font-size: 35px;
         }
       }
+
       box-sizing: border-box;
-      &:last-child{
+
+      &:last-child {
         padding-bottom: 0;
       }
-      h1{
+
+      h1 {
         font-size: 45px;
         line-height: 50px;
       }
-      p{
+
+      p {
         font-size: 15px;
         line-height: 30px;
         margin-top: 20px;
       }
-      a{
+
+      a {
         color: $pointColor1;
         text-decoration: underline;
       }
     }
   }
-  .vm202Table{
+
+  .vm202Table {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
-    img{
+
+    img {
       width: 100%;
       max-width: 867px;
     }
   }
+
   /*//1*/
 }
+
 /*//VM202, Pipeline*/
 
 
-
 /*Contact*/
-.contactSection{
+.contactSection {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
   /*1*/
-  .first{
-    .text{
+  .first {
+    .text {
       padding: 0 50px 50px 50px;
       max-width: 850px;
-      .head{
-        h1{
+
+      .head {
+        h1 {
           font-size: 35px;
         }
       }
+
       box-sizing: border-box;
-      &:last-child{
+
+      &:last-child {
         padding-bottom: 0;
       }
-      h1{
+
+      h1 {
         font-size: 45px;
         line-height: 50px;
       }
-      p{
+
+      p {
         font-size: 15px;
         line-height: 30px;
         margin-top: 20px;
       }
-      a{
+
+      a {
         color: $pointColor1;
         text-decoration: underline;
       }
     }
   }
-  .locationTable{
+
+  .locationTable {
     width: 100%;
     display: flex;
     justify-content: center;
-    .left{
+
+    .left {
       width: 50%;
       max-width: 400px;
       text-align: center;
       margin-right: 75px;
-      img{
+
+      img {
         width: 100%;
         max-width: 400px;
         margin: 25px 0;
       }
-      h1{
+
+      h1 {
         font-size: 35px;
       }
-      p{
+
+      p {
         font-size: 15px;
         line-height: 30px;
         text-align: left;
       }
     }
-    .right{
+
+    .right {
       width: 50%;
       max-width: 400px;
       text-align: center;
-      img{
+
+      img {
         width: 100%;
         max-width: 400px;
         margin: 25px 0;
       }
-      h1{
+
+      h1 {
         font-size: 35px;
       }
-      p{
+
+      p {
         font-size: 15px;
         line-height: 30px;
         text-align: left;
       }
     }
   }
+
   /*//1*/
-  .contactInfo{
+  .contactInfo {
     font-size: 30px;
     text-align: center;
-    a{
+
+    a {
       color: $black;
       text-decoration: underline;
     }
   }
-  .buttonBox{
+
+  .buttonBox {
     display: flex;
     justify-content: center;
-    .button{
+
+    .button {
       font-size: 15px;
       text-align: center;
       font-weight: 700;
@@ -545,6 +641,7 @@ a{
     }
   }
 }
+
 /*//Contact*/
 
 /*//서브페이지*/

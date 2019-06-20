@@ -5,45 +5,48 @@
     <title>HELIXMITH</title>
     <link type="text/css" rel="stylesheet" href="css/reset.css"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.css"/>
 </head>
 <body>
 <!--wrapper-->
 <div class="wrapper">
     <!--headNavigation-->
-    <div class="headNavigation headImage2">
+    <div class="headNavigation headImage2 wow fadeIn">
         <!--inside-->
         <div class="inside">
             <!--menus-->
             <div class="menus">
                 <!--logo-->
                 <div class="left">
-                    HELIXMITH
+                    <a href="index.html">
+                        HELIXMITH
+                    </a>
                 </div>
                 <!--//logo-->
                 <div class="right">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="about_1.html">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="vm202.html">
                                 VM202
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                Pipeline
+                            <a href="platform.html">
+                                Platform & Technology
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="botanicals.html">
                                 Botanicals
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="contact.html">
                                 Investors/News
                             </a>
                         </li>
@@ -67,7 +70,7 @@
     <!--//headNavigation-->
     <!--1-->
     <div class="aboutSection marginTop50">
-        <div class="first">
+        <div class="first wow fadeIn">
             <!--text-->
             <div class="text textAlignCenter">
                 <p>
@@ -81,7 +84,7 @@
     <!--//1-->
     <!--2-->
     <div class="aboutSection marginTop50">
-        <div class="member">
+        <div class="member wow fadeIn">
             <h1 class="headText">
                 Sunyoung Kim, DPhil
             </h1>
@@ -103,7 +106,7 @@
     <!--//divider-->
     <!--3-->
     <div class="aboutSection">
-        <div class="member">
+        <div class="member wow fadeIn">
             <h1 class="headText">
                 William Schmidt, PhD
             </h1>
@@ -126,7 +129,7 @@
     <!--//divider-->
     <!--4-->
     <div class="aboutSection">
-        <div class="member">
+        <div class="member wow fadeIn">
             <h1 class="headText">
                 Miwon Son, PhD
             </h1>
@@ -166,5 +169,25 @@
     <!--//footer-->
 </div>
 <!--//wrapper-->
+<!--js-->
+<script src="js/wow.js"></script>
+<script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+        var section = document.createElement('section');
+        section.className = 'section--purple wow fadeInDown';
+        this.parentNode.insertBefore(section, this);
+    };
+</script>
+<!--//js-->
 </body>
 </html>
