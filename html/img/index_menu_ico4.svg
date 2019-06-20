@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="79px" viewBox="0 0 134 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ico4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="main2" transform="translate(-1005.000000, -1835.000000)" stroke-width="2">
+            <g id="third" transform="translate(302.000000, 1685.000000)">
+                <g id="buttons" transform="translate(0.000000, 135.000000)">
+                    <g id="button4" transform="translate(704.000000, 16.000000)">
+                        <g id="ico4">
+                            <path d="M0.0001,76.2026 L131.9921,76.2026" id="Stroke-22" stroke="#333333"></path>
+                            <g id="Group-11" transform="translate(36.000000, 0.000000)">
+                                <path d="M12,0 L54.148,0 C56.256,0 58.213,1.689 57.982,3.754 L54.572,30.245 C54.34,32.311 52.424,34 50.316,34 L16,34" id="Stroke-1" stroke="#000000"></path>
+                                <polyline id="Stroke-3" stroke="#000000" points="55.8652 1.8887 31.0002 20.9997 12.0002 -0.0003"></polyline>
+                                <path d="M8,27 L20,27" id="Stroke-5" stroke="#C54344"></path>
+                                <path d="M4,11 L12,11" id="Stroke-7" stroke="#C54344"></path>
+                                <path d="M0,19 L16,19" id="Stroke-9" stroke="#C54344"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
