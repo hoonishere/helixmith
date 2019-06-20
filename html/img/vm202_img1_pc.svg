@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="867px" height="433px" viewBox="0 0 867 433" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>diagram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.aboutVM202" transform="translate(-287.000000, -720.000000)">
+            <g id="first" transform="translate(190.000000, 420.000000)">
+                <g id="diagram" transform="translate(97.000000, 300.000000)">
+                    <g id="라인" transform="translate(0.499031, 23.885611)" stroke="#B54142" stroke-width="2">
+                        <path d="M60,-59 L60,114.001813 C60,141.61605 82.3857625,164.001813 110,164.001813 L114.000126,164.001813 C141.614363,164.001813 164.000126,141.61605 164.000126,114.001813 L164.000126,49.1069264" id="Path" transform="translate(112.000063, 52.500906) rotate(-270.000000) translate(-112.000063, -52.500906) "></path>
+                        <path d="M702.000969,64.2252887 L702.000969,115.227935 C702.000969,142.842173 724.386732,165.227935 752.000969,165.227935 L756.000969,165.227935 C783.615207,165.227935 806.000969,142.842173 806.000969,115.227935 L806.000969,-57.7720646" id="Path" transform="translate(754.000969, 53.727935) rotate(-450.000000) translate(-754.000969, -53.727935) "></path>
+                    </g>
+                    <g id="숫자" transform="translate(104.000000, 243.000000)">
+                        <g id="1*4" transform="translate(96.000000, 0.000000)">
+                            <g id="HCMV">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="1" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">1</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(35.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="2" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">2</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(70.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="3" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">3</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(105.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="4" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">4</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="5*18" transform="translate(431.000000, 0.000000)">
+                            <g id="HCMV">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="5" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">5</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(35.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="6" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">6</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(70.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="7" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">7</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(105.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="8" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">8</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(140.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="9" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="11" y="21">9</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(175.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="10" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">10</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(210.000000, 0.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="11" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">11</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(0.000000, 40.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="12" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">12</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(35.000000, 40.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="13" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">13</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(70.000000, 40.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="14" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">14</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(105.000000, 40.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="15" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">15</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(140.000000, 40.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="16" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">16</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(175.000000, 40.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="17" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">17</tspan>
+                                </text>
+                            </g>
+                            <g id="HCMV" transform="translate(210.000000, 40.000000)">
+                                <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="28.5" height="28.5" rx="8"></rect>
+                                <text id="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#B54142">
+                                    <tspan x="6" y="21">18</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="INTRO4" transform="translate(251.000000, 0.000000)">
+                            <g id="찌릿" transform="translate(54.000000, 8.000000)" fill="#B54142">
+                                <rect id="Rectangle" x="0" y="6" width="100" height="3"></rect>
+                                <circle id="Oval" cx="98.5" cy="7.5" r="7.5"></circle>
+                                <circle id="Oval" cx="34.5" cy="7.5" r="5.5"></circle>
+                                <circle id="Oval" cx="65.5" cy="7.5" r="5.5"></circle>
+                            </g>
+                            <g id="찌릿" transform="translate(53.000000, 15.500000) rotate(-180.000000) translate(-53.000000, -15.500000) translate(0.000000, 8.000000)" fill="#B54142">
+                                <rect id="Rectangle" x="0" y="6" width="100" height="3"></rect>
+                                <circle id="Oval" cx="98.5" cy="7.5" r="7.5"></circle>
+                                <circle id="Oval" cx="34.5" cy="7.5" r="5.5"></circle>
+                                <circle id="Oval" cx="65.5" cy="7.5" r="5.5"></circle>
+                            </g>
+                            <rect id="bg" fill="#B54142" x="30" y="0" width="100" height="31" rx="8"></rect>
+                            <text id="Intro-4" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="13" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="60" y="21">Intro 4</tspan>
+                            </text>
+                        </g>
+                        <text id="Exon-number" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#000000">
+                            <tspan x="0" y="20">Exon number</tspan>
+                        </text>
+                    </g>
+                    <g id="COLE" transform="translate(179.000000, 0.000000)">
+                        <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="148.5" height="48.5" rx="8"></rect>
+                        <text id="ColE1" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                            <tspan x="55" y="31">ColE1</tspan>
+                        </text>
+                    </g>
+                    <g id="HCMV" transform="translate(124.000000, 100.000000)">
+                        <rect id="bg" fill="#B54142" x="0" y="0" width="260" height="50" rx="8"></rect>
+                        <text id="HCMV-IE-promoter" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#FFFFFF">
+                            <tspan x="65" y="31">HCMV IE promoter</tspan>
+                        </text>
+                    </g>
+                    <g id="H-+-pA" transform="translate(496.000000, 100.000000)">
+                        <g id="HGF_X7">
+                            <path d="M159.25,49.25 L159.25,0.75 L8,0.75 C3.99593556,0.75 0.75,3.99593556 0.75,8 L0.75,42 C0.75,46.0040644 3.99593556,49.25 8,49.25 L159.25,49.25 Z" id="bg" stroke="#B54142" stroke-width="1.5" fill="#FEF8F4"></path>
+                            <text id="HGF-X7" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                                <tspan x="53" y="31">HGF-X7</tspan>
+                            </text>
+                        </g>
+                        <g id="PA" transform="translate(159.000000, 0.000000)">
+                            <path d="M0.75,0.75 L0.75,49.25 L92,49.25 C96.0040644,49.25 99.25,46.0040644 99.25,42 L99.25,8 C99.25,3.99593556 96.0040644,0.75 92,0.75 L0.75,0.75 Z" id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF"></path>
+                            <text id="pA" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                                <tspan x="40" y="31">pA</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="KAN" transform="translate(551.000000, 0.000000)">
+                        <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="148.5" height="48.5" rx="8"></rect>
+                        <text id="Kan" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                            <tspan x="61" y="31">Kan</tspan>
+                        </text>
+                    </g>
+                    <g id="찌릿" transform="translate(380.000000, 117.000000)" fill="#B54142">
+                        <rect id="Rectangle" x="0" y="6" width="100" height="3"></rect>
+                        <circle id="Oval" cx="98.5" cy="7.5" r="7.5"></circle>
+                        <circle id="Oval" cx="34.5" cy="7.5" r="5.5"></circle>
+                        <circle id="Oval" cx="65.5" cy="7.5" r="5.5"></circle>
+                    </g>
+                    <rect id="Rectangle" fill="#B54142" x="339" y="25" width="202" height="2" rx="1"></rect>
+                    <g id="결과" transform="translate(308.000000, 288.000000)">
+                        <g id="HGF&amp;HFG" transform="translate(0.000000, 74.000000)">
+                            <g id="HFG">
+                                <circle id="Oval" stroke="#B54142" cx="35" cy="35" r="35"></circle>
+                                <text font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="13" font-weight="400" fill="#B54142">
+                                    <tspan x="22" y="41">HFG</tspan>
+                                </text>
+                            </g>
+                            <g id="HGF" transform="translate(184.000000, 0.000000)">
+                                <circle id="Oval" stroke="#B54142" cx="35" cy="35" r="35"></circle>
+                                <text font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="13" font-weight="400" fill="#B54142">
+                                    <tspan x="22" y="41">HGF</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="splice" transform="translate(28.000000, 0.000000)" stroke="#B54142" stroke-width="2">
+                            <g id="arrow" transform="translate(32.000000, 32.137931) rotate(-20.000000) translate(-32.000000, -32.137931) translate(7.000000, 8.000000)">
+                                <path d="M27.5353285,-8.90304452 L26.8396715,52.9012986" id="Line" stroke-linecap="square" transform="translate(27.187500, 21.999127) rotate(-135.000000) translate(-27.187500, -21.999127) "></path>
+                                <polyline id="Stroke-1" stroke-linecap="round" stroke-linejoin="round" transform="translate(7.351772, 41.446251) rotate(-225.000000) translate(-7.351772, -41.446251) " points="3.91774995 35.2658171 10.7857934 41.5227737 4.05688134 47.6266857"></polyline>
+                            </g>
+                            <g id="arrow" transform="translate(166.000000, 32.140000) rotate(20.000000) translate(-166.000000, -32.140000) translate(141.000000, 8.000000)">
+                                <path d="M23.159019,-8.90246835 L22.465981,52.9044937" id="Line" stroke-linecap="square" transform="translate(22.812500, 22.001013) scale(-1, 1) rotate(-135.000000) translate(-22.812500, -22.001013) "></path>
+                                <polyline id="Stroke-1" stroke-linecap="round" stroke-linejoin="round" transform="translate(42.648423, 41.449794) scale(-1, 1) rotate(-225.000000) translate(-42.648423, -41.449794) " points="39.214388 35.2690983 46.0824576 41.5260286 39.3529956 47.6304907"></polyline>
+                            </g>
+                        </g>
+                        <text id="Alternativev-splicin" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#000000">
+                            <tspan x="92.278" y="28">Alternativev</tspan>
+                            <tspan x="104.794" y="46">splicing</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

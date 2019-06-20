@@ -17,6 +17,22 @@ html, body {
   margin: 50px auto;
 }
 
+.fontBold {
+  font-weight: bold;
+}
+
+.fontMedium {
+  font-weight: 500;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.pointColorText {
+  color: #C54344;
+}
+
 .marginTop30 {
   margin-top: 30px !important;
 }
@@ -25,8 +41,27 @@ html, body {
   margin-top: 35px !important;
 }
 
+.marginTop50 {
+  margin-top: 50px !important;
+}
+
 .headImage1 {
   background: url("../img/head_img.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.headImage2 {
+  background: url("../img/head_img2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.headImage3 {
+  background: url("../img/head_img3.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.headImage4 {
+  background: url("../img/head_img4.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -155,7 +190,7 @@ a {
   transition: color 0.2s ease-in-out;
 }
 .section .first .right a:hover {
-  color: #9F3738;
+  color: #C54344;
 }
 .section .first .right .button {
   display: flex;
@@ -255,7 +290,7 @@ a {
   transition: color 0.2s ease-in-out;
 }
 .section .third .content ul li a:hover {
-  color: #9F3738;
+  color: #C54344;
 }
 
 /*footer*/
@@ -272,7 +307,7 @@ a {
   transition: color 0.2s ease-in-out;
 }
 .footer .menus a:hover {
-  color: #9F3738;
+  color: #C54344;
 }
 .footer .info {
   display: flex;
@@ -291,6 +326,205 @@ a {
 /*//footer*/
 /*본문 스타일*/
 /*서브페이지*/
+.aboutSection {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  /*1*/
+  /*//1*/
+  /*team member*/
+  /*//team member*/
+}
+.aboutSection .first .text {
+  padding: 0 50px 50px 50px;
+  box-sizing: border-box;
+}
+.aboutSection .first .text:last-child {
+  padding-bottom: 0;
+}
+.aboutSection .first .text h1 {
+  font-size: 35px;
+  line-height: 50px;
+}
+.aboutSection .first .text p {
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.aboutSection .first .text a {
+  color: #C54344;
+  text-decoration: underline;
+}
+.aboutSection .first .image {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.aboutSection .first .image img {
+  width: 100%;
+}
+.aboutSection .member {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.aboutSection .member h1 {
+  color: #333333;
+  font-size: 35px;
+}
+.aboutSection .member h2 {
+  color: #C54344;
+  font-size: 15px;
+  margin: 20px 0;
+}
+.aboutSection .member p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #333333;
+  text-align: left;
+}
+
+/*VM202, Pipeline*/
+.vm202Section {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  /*1*/
+  /*//1*/
+}
+.vm202Section .first .text {
+  padding: 0 50px 50px 50px;
+  max-width: 850px;
+  box-sizing: border-box;
+}
+.vm202Section .first .text .head h1 {
+  font-size: 35px;
+}
+.vm202Section .first .text:last-child {
+  padding-bottom: 0;
+}
+.vm202Section .first .text h1 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.vm202Section .first .text p {
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.vm202Section .first .text a {
+  color: #C54344;
+  text-decoration: underline;
+}
+.vm202Section .vm202Table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.vm202Section .vm202Table img {
+  width: 100%;
+  max-width: 867px;
+}
+
+/*//VM202, Pipeline*/
+/*Contact*/
+.contactSection {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  /*1*/
+  /*//1*/
+}
+.contactSection .first .text {
+  padding: 0 50px 50px 50px;
+  max-width: 850px;
+  box-sizing: border-box;
+}
+.contactSection .first .text .head h1 {
+  font-size: 35px;
+}
+.contactSection .first .text:last-child {
+  padding-bottom: 0;
+}
+.contactSection .first .text h1 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.contactSection .first .text p {
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.contactSection .first .text a {
+  color: #C54344;
+  text-decoration: underline;
+}
+.contactSection .locationTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contactSection .locationTable .left {
+  width: 50%;
+  max-width: 400px;
+  text-align: center;
+  margin-right: 75px;
+}
+.contactSection .locationTable .left img {
+  width: 100%;
+  max-width: 400px;
+  margin: 25px 0;
+}
+.contactSection .locationTable .left h1 {
+  font-size: 35px;
+}
+.contactSection .locationTable .left p {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: left;
+}
+.contactSection .locationTable .right {
+  width: 50%;
+  max-width: 400px;
+  text-align: center;
+}
+.contactSection .locationTable .right img {
+  width: 100%;
+  max-width: 400px;
+  margin: 25px 0;
+}
+.contactSection .locationTable .right h1 {
+  font-size: 35px;
+}
+.contactSection .locationTable .right p {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: left;
+}
+.contactSection .contactInfo {
+  font-size: 30px;
+  text-align: center;
+}
+.contactSection .contactInfo a {
+  color: #333333;
+  text-decoration: underline;
+}
+.contactSection .buttonBox {
+  display: flex;
+  justify-content: center;
+}
+.contactSection .buttonBox .button {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 50px;
+  background: #C54344;
+  color: #fff;
+  max-width: 230px;
+  border-radius: 50px;
+}
+
+/*//Contact*/
 /*//서브페이지*/
 
 /*# sourceMappingURL=style.css.map */

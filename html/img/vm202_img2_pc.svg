@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="867px" height="275px" viewBox="0 0 867 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>표</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.aboutVM202" transform="translate(-287.000000, -1858.000000)">
+            <g id="second" transform="translate(190.000000, 1753.000000)">
+                <g id="표" transform="translate(97.000000, 105.000000)">
+                    <g id="수직" transform="translate(87.000000, 60.000000)">
+                        <g id="1">
+                            <rect id="bg" stroke="#B54142" fill="#FFFFFF" x="0.5" y="0.5" width="149" height="49" rx="8"></rect>
+                            <text id="DPN-(US)" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                                <tspan x="42" y="31">DPN (US)</tspan>
+                            </text>
+                        </g>
+                        <g id="2" transform="translate(0.000000, 55.000000)">
+                            <rect id="bg" stroke="#B54142" fill="#FFFFFF" x="0.5" y="0.5" width="149" height="49" rx="8"></rect>
+                            <text id="PAD-(US)" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                                <tspan x="44" y="31">PAD (US)</tspan>
+                            </text>
+                        </g>
+                        <g id="3" transform="translate(0.000000, 110.000000)">
+                            <rect id="bg" stroke="#B54142" fill="#FFFFFF" x="0.5" y="0.5" width="149" height="49" rx="8"></rect>
+                            <text id="ALS-(US)" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                                <tspan x="45" y="31">ALS (US)</tspan>
+                            </text>
+                        </g>
+                        <g id="4" transform="translate(0.000000, 165.000000)">
+                            <rect id="bg" stroke="#B54142" fill="#FFFFFF" x="0.5" y="0.5" width="149" height="49" rx="8"></rect>
+                            <text id="CAD-(Korea)" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#B54142">
+                                <tspan x="32" y="31">CAD (Korea)</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="수평">
+                        <g id="COLE">
+                            <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#B54142" x="0.75" y="0.75" width="388.5" height="48.5" rx="8"></rect>
+                            <text id="Phase-l-l" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold">
+                                <tspan x="283" y="31" fill="#FFFFFF">Phase l</tspan>
+                                <tspan x="335.74" y="31" fill="#B54142"> l</tspan>
+                            </text>
+                        </g>
+                        <g id="COLE" transform="translate(400.000000, 0.000000)">
+                            <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#B54142" x="0.75" y="0.75" width="148.5" height="48.5" rx="8"></rect>
+                            <text id="Phase-ll" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="46" y="31">Phase ll</tspan>
+                            </text>
+                        </g>
+                        <g id="COLE" transform="translate(717.000000, 0.000000)">
+                            <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#B54142" x="0.75" y="0.75" width="148.5" height="48.5" rx="8"></rect>
+                            <text id="BLA-/-Market" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="15" font-weight="400" fill="#FFFFFF">
+                                <tspan x="30" y="31">BLA / Market</tspan>
+                            </text>
+                        </g>
+                        <g id="COLE" transform="translate(557.000000, 0.000000)">
+                            <rect id="bg" stroke="#B54142" stroke-width="1.5" fill="#B54142" x="0.75" y="0.75" width="148.5" height="48.5" rx="8"></rect>
+                            <text id="Phase-lll" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="44" y="31">Phase lll</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="라인" transform="translate(388.000000, 60.000000)" stroke="#EAB4B5" stroke-dasharray="10" stroke-linecap="square">
+                        <path d="M1,0 L1,215" id="divider"></path>
+                        <path d="M161,0 L161,215" id="divider"></path>
+                        <path d="M318,0 L318,215" id="divider"></path>
+                        <path d="M478,0 L478,215" id="divider"></path>
+                    </g>
+                    <g id="line1" transform="translate(272.000000, 80.000000)" fill="#B54142">
+                        <g id="1">
+                            <g>
+                                <rect id="Rectangle" x="0" y="4" width="113" height="3"></rect>
+                                <circle id="Oval" cx="116.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                        <g id="line2" transform="translate(117.000000, 0.000000)">
+                            <g id="1">
+                                <rect id="Rectangle" x="0" y="4" width="156" height="3"></rect>
+                                <circle id="Oval" cx="160.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                        <g id="line3" transform="translate(277.000000, 0.000000)">
+                            <g id="1">
+                                <rect id="Rectangle" x="0" y="4" width="156" height="3"></rect>
+                                <circle id="Oval" cx="157.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="line2" transform="translate(272.000000, 135.000000)" fill="#B54142">
+                        <g id="line1">
+                            <g id="1">
+                                <rect id="Rectangle" x="0" y="4" width="112" height="3"></rect>
+                                <circle id="Oval" cx="116.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                        <g transform="translate(117.000000, 0.000000)" id="1">
+                            <g>
+                                <rect id="Rectangle" x="0" y="4" width="155" height="3"></rect>
+                                <circle id="Oval" cx="159.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                        <g id="line3" transform="translate(277.000000, 0.000000)">
+                            <g id="1">
+                                <rect id="Rectangle" x="0" y="4" width="80" height="3"></rect>
+                                <circle id="Oval" cx="83.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="line3" transform="translate(272.000000, 190.000000)" fill="#B54142">
+                        <g id="line1">
+                            <g id="1">
+                                <rect id="Rectangle" x="0" y="4" width="115" height="3"></rect>
+                                <circle id="Oval" cx="117.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="line4" transform="translate(272.000000, 245.000000)" fill="#B54142">
+                        <g id="line1">
+                            <g id="1">
+                                <rect id="Rectangle" x="0" y="4" width="115" height="3"></rect>
+                                <circle id="Oval" cx="117.5" cy="5.5" r="5.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="VM202" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="18" font-weight="bold" fill="#B54142">
+                        <tspan x="8" y="92">VM202</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1002px" height="166px" viewBox="0 0 1002 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>표</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.Platform&amp;Technology" transform="translate(-189.000000, -2551.000000)">
+            <g id="third" transform="translate(190.000000, 2041.000000)">
+                <g id="표" transform="translate(0.000000, 510.000000)">
+                    <g id="head">
+                        <g id="1">
+                            <rect id="bg" fill="#000000" x="0" y="0" width="250" height="50" rx="8"></rect>
+                            <text id="Program" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="93" y="31">Program</tspan>
+                            </text>
+                        </g>
+                        <g id="2" transform="translate(260.000000, 0.000000)">
+                            <rect id="bg" fill="#000000" x="0" y="0" width="740" height="50" rx="8"></rect>
+                            <text id="Therapeutic-Area" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="307" y="31">Therapeutic Area</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="cell1" transform="translate(0.000000, 65.000000)">
+                        <text id="VM206" font-family="NotoSansKR-Bold, Noto Sans KR Bold" font-size="18" font-weight="bold" fill="#000000">
+                            <tspan x="95.849" y="21">VM206</tspan>
+                        </text>
+                        <text id="Breast-cancer-therap" font-family="NotoSansKR-Medium, Noto Sans KR Medium" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="455.229" y="21">Breast cancer therapeutic cancer vaccine</tspan>
+                        </text>
+                        <path d="M0,42.5 L1000,42.5" id="divider" stroke="#979797" stroke-linecap="square"></path>
+                    </g>
+                    <g id="cell2" transform="translate(0.000000, 123.000000)">
+                        <text id="VM501" font-family="NotoSansKR-Bold, Noto Sans KR Bold" font-size="18" font-weight="bold" fill="#000000">
+                            <tspan x="95.849" y="21">VM501 </tspan>
+                        </text>
+                        <text id="Chemotherapy-induced" font-family="NotoSansKR-Medium, Noto Sans KR Medium" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="424.593" y="21">Chemotherapy induced thrombocytopenia (CIT)</tspan>
+                        </text>
+                        <path d="M0,42.5 L1000,42.5" id="divider" stroke="#979797" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
