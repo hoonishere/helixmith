@@ -8,6 +8,13 @@ html, body {
   padding: 0;
   font-family: 'Noto Sans KR', sans-serif; }
 
+button, input, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
 .divider {
   width: 100%;
   height: 1px;
@@ -53,7 +60,7 @@ html, body {
   background-size: cover; }
 
 .pc {
-  display: block;
+  display: inline-block;
   /*모바일*/
   /*//모바일*/ }
   @media only screen and (min-width: 320px) and (max-width: 1024px) {
@@ -159,7 +166,12 @@ a {
       padding-bottom: 190px; }
       .headNavigation .inside .content h1 {
         font-size: 80px;
-        color: #fff; }
+        color: #fff;
+        /*모바일*/
+        /*//모바일*/ }
+        @media only screen and (min-width: 320px) and (max-width: 1024px) {
+          .headNavigation .inside .content h1 {
+            font-size: 60px; } }
       .headNavigation .inside .content p {
         font-size: 16px;
         line-height: 30px;
@@ -170,7 +182,12 @@ a {
       .headNavigation .inside .subContent h1 {
         font-size: 50px;
         color: #fff;
-        margin-top: 15px; }
+        margin-top: 15px;
+        /*모바일*/
+        /*//모바일*/ }
+        @media only screen and (min-width: 320px) and (max-width: 1024px) {
+          .headNavigation .inside .subContent h1 {
+            font-size: 40px; } }
       .headNavigation .inside .subContent h2 {
         font-size: 20px;
         color: #fff; }
@@ -406,7 +423,14 @@ a {
     height: 350px;
     overflow: hidden; }
     .aboutSection .first .image img {
-      width: 100%; }
+      width: 100%;
+      /*모바일*/
+      /*//모바일*/ }
+      @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        .aboutSection .first .image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; } }
   .aboutSection .member {
     max-width: 600px;
     margin: 0 auto;
@@ -486,16 +510,35 @@ a {
   .contactSection .locationTable {
     width: 100%;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    /*모바일*/
+    /*//모바일*/ }
+    @media only screen and (min-width: 320px) and (max-width: 1024px) {
+      .contactSection .locationTable {
+        display: block;
+        padding: 0 30px;
+        box-sizing: border-box; } }
     .contactSection .locationTable .left {
       width: 50%;
       max-width: 400px;
       text-align: center;
-      margin-right: 75px; }
+      margin-right: 75px;
+      /*모바일*/
+      /*//모바일*/ }
+      @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        .contactSection .locationTable .left {
+          width: 100%;
+          margin: 0 auto; } }
       .contactSection .locationTable .left img {
         width: 100%;
         max-width: 400px;
-        margin: 25px 0; }
+        margin: 25px 0;
+        /*모바일*/
+        /*//모바일*/ }
+        @media only screen and (min-width: 320px) and (max-width: 1024px) {
+          .contactSection .locationTable .left img {
+            width: 100%;
+            max-width: 100%; } }
       .contactSection .locationTable .left h1 {
         font-size: 35px; }
       .contactSection .locationTable .left p {
@@ -505,7 +548,13 @@ a {
     .contactSection .locationTable .right {
       width: 50%;
       max-width: 400px;
-      text-align: center; }
+      text-align: center;
+      /*모바일*/
+      /*//모바일*/ }
+      @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        .contactSection .locationTable .right {
+          width: 100%;
+          margin: 50px auto 0; } }
       .contactSection .locationTable .right img {
         width: 100%;
         max-width: 400px;
@@ -526,6 +575,7 @@ a {
     display: flex;
     justify-content: center; }
     .contactSection .buttonBox .button {
+      border: none;
       font-size: 15px;
       text-align: center;
       font-weight: 700;
@@ -533,9 +583,47 @@ a {
       background: #C54344;
       color: #fff;
       max-width: 230px;
-      border-radius: 50px; }
+      border-radius: 50px;
+      transition: background .2s ease-in-out; }
+      .contactSection .buttonBox .button:hover {
+        background: #992122; }
 
 /*//Contact*/
+/*mobile Submenu*/
+#mobileMenu {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9); }
+  #mobileMenu ul {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box; }
+    #mobileMenu ul li {
+      width: 100%;
+      margin-bottom: 40px;
+      font-size: 20px;
+      text-align: center; }
+      #mobileMenu ul li a {
+        color: #fff;
+        text-decoration: none; }
+      #mobileMenu ul li .button {
+        width: 40%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #fff;
+        border-radius: 100px;
+        cursor: pointer; }
+
+/*//mobile Submenu*/
 /*//서브페이지*/
 
 /*# sourceMappingURL=style.css.map */

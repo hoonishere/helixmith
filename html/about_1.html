@@ -30,6 +30,20 @@
                             <a href="about_1.html">
                                 About Us
                             </a>
+                            <div class="dropdown-content">
+                                <div class="box">
+                                    <a href="about_1.html">
+                                        <p>
+                                            About Us
+                                        </p>
+                                    </a>
+                                    <a href="about_2.html">
+                                        <p>
+                                            Team Member
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                         <li>
                             <a href="vm202.html">
@@ -50,11 +64,25 @@
                             <a href="contact.html">
                                 Investors/News
                             </a>
+                            <div class="dropdown-content">
+                                <div class="box">
+                                    <a href="#">
+                                        <p>
+                                            Investors/News
+                                        </p>
+                                    </a>
+                                    <a href="contact.html">
+                                        <p>
+                                            Contact
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                     <ul class="mobile displayFlex">
                         <li>
-                            <img src="img/mobile_menu_ico.svg"/>
+                            <img src="img/mobile_menu_ico.svg" id="showPanel"/>
                         </li>
                     </ul>
                 </div>
@@ -205,8 +233,56 @@
     <!--//footer-->
 </div>
 <!--//wrapper-->
+<!--mobile Menu-->
+<div id="mobileMenu">
+    <ul>
+        <li>
+            <a href="about_1.html">
+                About Us
+            </a>
+        </li>
+        <li>
+            <a href="about_2.html">
+                Team Member
+            </a>
+        </li>
+        <li>
+            <a href="vm202.html">
+                VM202
+            </a>
+        </li>
+        <li>
+            <a href="platform.html">
+                Platform & Technology
+            </a>
+        </li>
+        <li>
+            <a href="botanicals.html">
+                Botanicals
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Investors/News
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+        <li>
+            <div class="button" id="hidePanel">
+                <img src="img/close_ico.svg"/>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--//mobile Menu-->
 <!--js-->
 <script src="js/wow.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/common.js"></script>
 <script>
     wow = new WOW(
         {
@@ -218,11 +294,18 @@
         }
     );
     wow.init();
-    document.getElementById('moar').onclick = function() {
-        var section = document.createElement('section');
-        section.className = 'section--purple wow fadeInDown';
-        this.parentNode.insertBefore(section, this);
-    };
+
+    $(document).ready(function(){
+
+        $("#showPanel").click(function(){
+            $("#mobileMenu").show();
+        });
+
+        $("#hidePanel").click(function(){
+            $("#mobileMenu").hide();
+        });
+
+    });
 </script>
 <!--//js-->
 </body>

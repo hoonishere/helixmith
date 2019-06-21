@@ -82,7 +82,7 @@
                     </ul>
                     <ul class="mobile displayFlex">
                         <li>
-                            <img src="img/mobile_menu_ico.svg"/>
+                            <img src="img/mobile_menu_ico.svg" id="showPanel"/>
                         </li>
                     </ul>
                 </div>
@@ -293,8 +293,56 @@
     <!--//footer-->
 </div>
 <!--//wrapper-->
+<!--mobile Menu-->
+<div id="mobileMenu">
+    <ul>
+        <li>
+            <a href="about_1.html">
+                About Us
+            </a>
+        </li>
+        <li>
+            <a href="about_2.html">
+                Team Member
+            </a>
+        </li>
+        <li>
+            <a href="vm202.html">
+                VM202
+            </a>
+        </li>
+        <li>
+            <a href="platform.html">
+                Platform & Technology
+            </a>
+        </li>
+        <li>
+            <a href="botanicals.html">
+                Botanicals
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Investors/News
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+        <li>
+            <div class="button" id="hidePanel">
+                <img src="img/close_ico.svg"/>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--//mobile Menu-->
 <!--js-->
 <script src="js/wow.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 <script>
     wow = new WOW(
         {
@@ -306,11 +354,18 @@
         }
     );
     wow.init();
-    document.getElementById('moar').onclick = function() {
-        var section = document.createElement('section');
-        section.className = 'section--purple wow fadeInDown';
-        this.parentNode.insertBefore(section, this);
-    };
+
+    $(document).ready(function(){
+
+        $("#showPanel").click(function(){
+            $("#mobileMenu").show();
+        });
+
+        $("#hidePanel").click(function(){
+            $("#mobileMenu").hide();
+        });
+
+    });
 </script>
 <!--//js-->
 </body>
