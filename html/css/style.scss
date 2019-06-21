@@ -670,10 +670,24 @@ a {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    /*모바일*/
+    @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
+      padding: 0 30px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    /*//모바일*/
 
     img {
       width: 100%;
       max-width: 867px;
+      /*모바일*/
+      @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+      }
+      /*//모바일*/
     }
   }
 
