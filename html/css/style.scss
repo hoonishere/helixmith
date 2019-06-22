@@ -551,11 +551,22 @@ a {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
+  /*모바일*/
+  @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  /*//모바일*/
   /*1*/
   .first {
     .text {
       padding: 0 50px 50px 50px;
       box-sizing: border-box;
+      /*모바일*/
+      @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
+        padding: 0 0 30px 0;
+      }
+      /*//모바일*/
 
       &:last-child {
         padding-bottom: 0;
@@ -635,6 +646,11 @@ a {
     .text {
       padding: 0 50px 50px 50px;
       max-width: 850px;
+      /*모바일*/
+      @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
+        padding: 0 30px 50px 30px;
+      }
+      /*//모바일*/
 
       .head {
         h1 {
