@@ -5,47 +5,84 @@
     <title>HELIXMITH</title>
     <link type="text/css" rel="stylesheet" href="css/reset.css"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <!--wrapper-->
 <div class="wrapper">
     <!--headNavigation-->
-    <div class="headNavigation headImage1">
+    <div class="headNavigation headImage1 wow fadeIn">
         <!--inside-->
-        <div class="inside">
+        <div class="inside wow fadeIn" data-wow-delay=".5s">
             <!--menus-->
             <div class="menus">
                 <!--logo-->
                 <div class="left">
-                    HELIXMITH
+                    <a href="index.html">
+                        HELIXMITH
+                    </a>
                 </div>
                 <!--//logo-->
                 <div class="right">
-                    <ul>
+                    <ul class="pc">
                         <li>
-                            <a href="#">
+                            <a href="about_1.html">
                                 About Us
                             </a>
+                            <div class="dropdown-content">
+                                <div class="box">
+                                    <a href="about_1.html">
+                                        <p>
+                                            About Us
+                                        </p>
+                                    </a>
+                                    <a href="about_2.html">
+                                        <p>
+                                            Team Member
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="vm202.html">
                                 VM202
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                Pipeline
+                            <a href="platform.html">
+                                Platform & Technology
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="botanicals.html">
                                 Botanicals
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="contact.html">
                                 Investors/News
                             </a>
+                            <div class="dropdown-content">
+                                <div class="box">
+                                    <a href="#">
+                                        <p>
+                                            Investors/News
+                                        </p>
+                                    </a>
+                                    <a href="contact.html">
+                                        <p>
+                                            Contact
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mobile displayFlex">
+                        <li>
+                            <img src="img/mobile_menu_ico.svg" id="showPanel"/>
                         </li>
                     </ul>
                 </div>
@@ -53,10 +90,10 @@
             <!--//menus-->
             <!--content-->
             <div class="content">
-                <h1 class="headText">
+                <h1 class="headText wow fadeIn" data-wow-delay=".8s">
                     Pioneer to Happiness
                 </h1>
-                <p>
+                <p class="wow fadeIn" data-wow-delay="1s">
                     Pioneer and global leader in plasmid DNA-based gene therapy,<br>
                     with a particular emphasis on diseases associated with neurological, muscular or ischemic problems
                 </p>
@@ -68,7 +105,7 @@
     <!--//headNavigation-->
     <!--1-->
     <div class="section marginTop35">
-        <div class="first">
+        <div class="first wow fadeInUp" data-wow-delay="1s">
             <!--left-->
             <div class="left">
                 <img src="img/index_img1.png"/>
@@ -101,7 +138,7 @@
     <!--//divider-->
     <!--2-->
     <div class="section">
-        <div class="second">
+        <div class="second wow fadeInUp">
             <!--head-->
             <div class="head">
                 <h1 class="headText">Our Main Discoveries</h1>
@@ -169,7 +206,7 @@
     <!--//divider-->
     <!--3-->
     <div class="section">
-        <div class="third">
+        <div class="third wow fadeInUp">
             <!--head-->
             <div class="head">
                 <h1 class="headText">Investors & Contact</h1>
@@ -256,5 +293,80 @@
     <!--//footer-->
 </div>
 <!--//wrapper-->
+<!--mobile Menu-->
+<div id="mobileMenu">
+    <ul>
+        <li>
+            <a href="about_1.html">
+                About Us
+            </a>
+        </li>
+        <li>
+            <a href="about_2.html">
+                Team Member
+            </a>
+        </li>
+        <li>
+            <a href="vm202.html">
+                VM202
+            </a>
+        </li>
+        <li>
+            <a href="platform.html">
+                Platform & Technology
+            </a>
+        </li>
+        <li>
+            <a href="botanicals.html">
+                Botanicals
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Investors/News
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+        <li>
+            <div class="button" id="hidePanel">
+                <img src="img/close_ico.svg"/>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--//mobile Menu-->
+<!--js-->
+<script src="js/wow.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        }
+    );
+    wow.init();
+
+    $(document).ready(function(){
+
+        $("#showPanel").click(function(){
+            $("#mobileMenu").show();
+        });
+
+        $("#hidePanel").click(function(){
+            $("#mobileMenu").hide();
+        });
+
+    });
+</script>
+<!--//js-->
 </body>
 </html>

@@ -5,47 +5,84 @@
     <title>HELIXMITH</title>
     <link type="text/css" rel="stylesheet" href="css/reset.css"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <!--wrapper-->
 <div class="wrapper">
     <!--headNavigation-->
-    <div class="headNavigation headImage3">
+    <div class="headNavigation headImage3 wow fadeIn">
         <!--inside-->
         <div class="inside">
             <!--menus-->
             <div class="menus">
                 <!--logo-->
                 <div class="left">
-                    HELIXMITH
+                    <a href="index.html">
+                        HELIXMITH
+                    </a>
                 </div>
                 <!--//logo-->
                 <div class="right">
-                    <ul>
+                    <ul class="pc">
                         <li>
-                            <a href="#">
+                            <a href="about_1.html">
                                 About Us
                             </a>
+                            <div class="dropdown-content">
+                                <div class="box">
+                                    <a href="about_1.html">
+                                        <p>
+                                            About Us
+                                        </p>
+                                    </a>
+                                    <a href="about_2.html">
+                                        <p>
+                                            Team Member
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="vm202.html">
                                 VM202
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                Pipeline
+                            <a href="platform.html">
+                                Platform & Technology
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="botanicals.html">
                                 Botanicals
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="contact.html">
                                 Investors/News
                             </a>
+                            <div class="dropdown-content">
+                                <div class="box">
+                                    <a href="#">
+                                        <p>
+                                            Investors/News
+                                        </p>
+                                    </a>
+                                    <a href="contact.html">
+                                        <p>
+                                            Contact
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mobile displayFlex">
+                        <li>
+                            <img src="img/mobile_menu_ico.svg" id="showPanel"/>
                         </li>
                     </ul>
                 </div>
@@ -69,7 +106,7 @@
     <div class="vm202Section marginTop50">
         <div class="first">
             <!--text-->
-            <div class="text">
+            <div class="text wow fadeIn">
                 <h1 class="headText">
                     VM202
                 </h1>
@@ -86,12 +123,13 @@
             </div>
             <!--//text-->
             <!--image-->
-            <div class="vm202Table">
+            <div class="vm202Table wow fadeIn" data-wow-delay=".2s">
                 <img src="img/vm202_img1_pc.svg" class="pc"/>
+                <img src="img/vm202_img1_mobile.svg" class="mobile"/>
             </div>
             <!--//image-->
             <!--text-->
-            <div class="text">
+            <div class="text wow fadeIn" data-wow-delay=".4s">
                 <p>
                     VM202 more efficiently induced migration of human umbilical vein endothelial cells and C2C12 cells
                     when compared to DNAs expressing either of two isoforms, and it also improved cardiac function in a
@@ -124,15 +162,16 @@
     <div class="vm202Section marginTop50">
         <div class="first">
             <!--text-->
-            <div class="text">
+            <div class="text wow fadeIn">
                 <h1 class="headText">
                     VM202 Clinical Programs
                 </h1>
             </div>
             <!--//text-->
             <!--image-->
-            <div class="vm202Table">
+            <div class="vm202Table wow fadeIn" data-wow-delay=".2s">
                 <img src="img/vm202_img2_pc.svg" class="pc"/>
+                <img src="img/vm202_img2_mobile.svg" class="mobile"/>
             </div>
             <!--//image-->
         </div>
@@ -145,7 +184,7 @@
     <div class="vm202Section">
         <div class="first">
             <!--text-->
-            <div class="text">
+            <div class="text wow fadeIn">
                 <!--head-->
                 <div class="head">
                     <h1>
@@ -181,7 +220,7 @@
             </div>
             <!--//text-->
             <!--text-->
-            <div class="text">
+            <div class="text wow fadeIn">
                 <!--head-->
                 <div class="head">
                     <h1>
@@ -231,7 +270,7 @@
             </div>
             <!--//text-->
             <!--text-->
-            <div class="text">
+            <div class="text wow fadeIn">
                 <!--head-->
                 <div class="head">
                     <h1>
@@ -264,7 +303,7 @@
             </div>
             <!--//text-->
             <!--text-->
-            <div class="text">
+            <div class="text wow fadeIn">
                 <!--head-->
                 <div class="head">
                     <h1>
@@ -326,5 +365,80 @@
     <!--//footer-->
 </div>
 <!--//wrapper-->
+<!--mobile Menu-->
+<div id="mobileMenu">
+    <ul>
+        <li>
+            <a href="about_1.html">
+                About Us
+            </a>
+        </li>
+        <li>
+            <a href="about_2.html">
+                Team Member
+            </a>
+        </li>
+        <li>
+            <a href="vm202.html">
+                VM202
+            </a>
+        </li>
+        <li>
+            <a href="platform.html">
+                Platform & Technology
+            </a>
+        </li>
+        <li>
+            <a href="botanicals.html">
+                Botanicals
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Investors/News
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+        <li>
+            <div class="button" id="hidePanel">
+                <img src="img/close_ico.svg"/>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--//mobile Menu-->
+<!--js-->
+<script src="js/wow.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        }
+    );
+    wow.init();
+
+    $(document).ready(function(){
+
+        $("#showPanel").click(function(){
+            $("#mobileMenu").show();
+        });
+
+        $("#hidePanel").click(function(){
+            $("#mobileMenu").hide();
+        });
+
+    });
+</script>
+<!--//js-->
 </body>
 </html>
