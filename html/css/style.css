@@ -273,6 +273,7 @@ a {
 }
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .section .first {
+<<<<<<< HEAD
     display: block;
   }
 }
@@ -448,6 +449,141 @@ a {
 .section .third .content ul li a:hover {
   color: #C54344;
 }
+=======
+    display: flex;
+    color: #333333;
+    /*모바일*/
+    /*//모바일*/ }
+    @media only screen and (min-width: 320px) and (max-width: 1024px) {
+      .section .first {
+        display: block; } }
+    .section .first .left {
+      width: 50%;
+      margin-right: 40px;
+      /*모바일*/
+      /*//모바일*/ }
+      @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        .section .first .left {
+          width: 100%;
+          margin-right: 0; } }
+      .section .first .left img {
+        width: 100%; }
+    .section .first .right {
+      width: 50%;
+      /*모바일*/
+      /*//모바일*/ }
+      @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        .section .first .right {
+          width: 100%; } }
+      .section .first .right h1 {
+        font-size: 35px;
+        line-height: 50px; }
+      .section .first .right p {
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 25px;
+        padding-bottom: 40px; }
+      .section .first .right a {
+        color: #333333;
+        transition: color .2s ease-in-out; }
+        .section .first .right a:hover {
+          color: #C54344; }
+      .section .first .right .button {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 700; }
+        .section .first .right .button img {
+          margin-right: 15px; }
+  .section .second .head {
+    text-align: center; }
+    .section .second .head h1 {
+      font-size: 35px; }
+  .section .second .content {
+    width: 100%; }
+    .section .second .content ul {
+      display: block;
+      /*모바일*/
+      /*//모바일*/ }
+      @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        .section .second .content ul {
+          display: block; } }
+      .section .second .content ul a {
+        color: #333333; }
+      .section .second .content ul li {
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+        transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
+        box-sizing: border-box; }
+        .section .second .content ul li:last-child {
+          margin-right: 0; }
+        .section .second .content ul li h2 {
+          font-weight: 400;
+          color: #B5B5B5;
+          font-size: 12px; }
+        .section .second .content ul li h1 {
+          color: #333333;
+          font-size: 25px;
+          font-weight: 700;
+          margin-top: 5px;
+          margin-bottom: 15px; }
+        .section .second .content ul li p {
+          font-size: 15px;
+          line-height: 30px; }
+        .section .second .content ul li img {
+          margin-top: 25px;
+          width: 100%;
+          max-width: 180px; }
+        .section .second .content ul li:hover {
+          box-shadow: 10px 10px 80px 0px rgba(0, 0, 0, 0.1);
+          transform: translate(0, -5px); }
+      .section .second .content ul .divider {
+        width: 30px;
+        height: 1px;
+        margin: 30px auto;
+        background: #B5B5B5; }
+  .section .third .head {
+    text-align: center; }
+    .section .third .head h1 {
+      font-size: 35px; }
+    .section .third .head p {
+      font-size: 15px;
+      line-height: 30px;
+      margin-top: 30px; }
+  .section .third .content {
+    width: 100%; }
+    .section .third .content ul {
+      display: flex;
+      /*모바일*/
+      /*//모바일*/ }
+      @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        .section .third .content ul {
+          display: block; } }
+      .section .third .content ul li {
+        width: 100%;
+        margin-right: 100px;
+        text-align: center;
+        /*모바일*/
+        /*//모바일*/ }
+        @media only screen and (min-width: 320px) and (max-width: 1024px) {
+          .section .third .content ul li {
+            box-sizing: border-box;
+            margin-right: 0;
+            margin-bottom: 100px; } }
+        .section .third .content ul li:last-child {
+          margin-right: 0; }
+        .section .third .content ul li h1 {
+          font-size: 20px;
+          font-weight: 700;
+          margin-top: 30px;
+          margin-bottom: 15px; }
+        .section .third .content ul li a {
+          color: #333333;
+          transition: color .2s ease-in-out; }
+          .section .third .content ul li a:hover {
+            color: #C54344; }
+>>>>>>> 69595c87b5262af2137f6f88fee9ff5501373823
 
 /*footer*/
 .footer {

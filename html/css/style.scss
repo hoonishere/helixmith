@@ -352,7 +352,7 @@ a {
     .content {
       width: 100%;
       ul {
-        display: flex;
+        display: block;
         /*모바일*/
         @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
           display: block;
@@ -365,15 +365,10 @@ a {
 
         li {
           width: 100%;
-          margin-right: 25px;
           padding: 25px;
           text-align: center;
           transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
-          /*모바일*/
-          @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
-            box-sizing: border-box;
-          }
-          /*//모바일*/
+          box-sizing: border-box;
 
           &:last-child {
             margin-right: 0;
@@ -383,7 +378,6 @@ a {
             font-weight: 400;
             color: $lightGray;
             font-size: 12px;
-            text-align: left;
           }
 
           h1 {
@@ -392,13 +386,11 @@ a {
             font-weight: 700;
             margin-top: 5px;
             margin-bottom: 15px;
-            text-align: left;
           }
 
           p {
             font-size: 15px;
             line-height: 30px;
-            text-align: left;
           }
 
           img {
@@ -411,6 +403,12 @@ a {
             box-shadow: 10px 10px 80px 0px rgba(0, 0, 0, 0.1);
             transform: translate(0, -5px);
           }
+        }
+        .divider{
+          width: 30px;
+          height: 1px;
+          margin: 30px auto;
+          background: $lightGray;
         }
       }
     }
