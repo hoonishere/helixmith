@@ -53,6 +53,10 @@ button, input, select {
   margin-top: 50px !important;
 }
 
+.marginBottom30 {
+  margin-bottom: 30px !important;
+}
+
 .headImage1 {
   background: url("../img/head_img.jpg") no-repeat center center;
   background-size: cover;
