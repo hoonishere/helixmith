@@ -87,6 +87,11 @@ button,input,select{
   background-size: cover;
 }
 
+.headImage5 {
+  background: url("../img/head_img5.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 .pc{
   display: inline-block;
   /*모바일*/
@@ -659,6 +664,9 @@ a {
         h1 {
           font-size: 35px;
         }
+        h2 {
+          font-size: 25px;
+        }
       }
 
       box-sizing: border-box;
@@ -689,6 +697,10 @@ a {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    h2{
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
     /*모바일*/
     @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
       padding: 0 30px;
@@ -928,18 +940,18 @@ a {
     box-sizing: border-box;
     li{
       width: 100%;
-      margin-bottom: 40px;
-      font-size: 20px;
+      margin-bottom: 35px;
+      font-size: 15px;
       text-align: center;
       a{
         color: $white;
         text-decoration: none;
       }
       .button{
-        width: 40%;
+        width: 30%;
         margin: 0 auto;
         box-sizing: border-box;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
         border: 1px solid $white;
         border-radius: 100px;
