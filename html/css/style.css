@@ -53,6 +53,10 @@ button, input, select {
   margin-top: 50px !important;
 }
 
+.marginTop80 {
+  margin-top: 80px !important;
+}
+
 .marginBottom30 {
   margin-bottom: 30px !important;
 }
@@ -109,6 +113,10 @@ button, input, select {
 .headText {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+}
+
+.grayText {
+  color: #999999;
 }
 
 /*//common*/
@@ -711,7 +719,7 @@ a {
 }
 
 .aboutSection .member {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
@@ -744,8 +752,8 @@ a {
 }
 
 .vm202Section .first .text {
-  padding: 0 50px 50px 50px;
-  max-width: 850px;
+  padding: 0 0 50px 0;
+  max-width: 900px;
   /*모바일*/
   /*//모바일*/
   -webkit-box-sizing: border-box;
@@ -784,6 +792,11 @@ a {
 .vm202Section .first .text a {
   color: #C54344;
   text-decoration: underline;
+}
+
+.vm202Section .first .iconBox {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .vm202Section .vm202Table {
