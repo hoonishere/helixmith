@@ -72,6 +72,10 @@ button,input,select{
   margin-bottom: 30px !important;
 }
 
+.maxWidth100{
+  max-width: 100%!important;
+}
+
 .headImage1 {
   background: url("../img/head_img.jpg") no-repeat center center;
   background-size: cover;
@@ -579,7 +583,8 @@ a {
   /*1*/
   .first {
     .text {
-      padding: 0 50px 50px 50px;
+      max-width: 900px;
+      padding: 0 0 50px 0;
       box-sizing: border-box;
       /*모바일*/
       @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {

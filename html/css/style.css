@@ -61,6 +61,10 @@ button, input, select {
   margin-bottom: 30px !important;
 }
 
+.maxWidth100 {
+  max-width: 100% !important;
+}
+
 .headImage1 {
   background: url("../img/head_img.jpg") no-repeat center center;
   background-size: cover;
@@ -663,7 +667,8 @@ a {
 }
 
 .aboutSection .first .text {
-  padding: 0 50px 50px 50px;
+  max-width: 900px;
+  padding: 0 0 50px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   /*모바일*/
