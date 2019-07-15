@@ -3,7 +3,9 @@
 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 164 20" style="enable-background:new 0 0 164 20;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#595757;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#E50113;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#B4B5B5;}
 </style>
 <title>Group 14</title>
 <desc>Created with Sketch.</desc>
@@ -22,12 +24,12 @@
 			<polygon id="Fill-7" class="st0" points="124,0 124,4.8 130.3,4.8 130.3,19.8 136.5,19.8 136.5,4.8 142.9,4.8 142.9,0 			"/>
 			<polygon id="Fill-8" class="st0" points="157.6,0 157.6,7.4 150.6,7.4 150.6,0 144.5,0 144.5,19.8 150.6,19.8 150.6,12.5 
 				157.6,12.5 157.6,19.8 163.7,19.8 163.7,0 			"/>
-			<polygon id="Fill-9" class="st0" points="82.3,0.1 82.3,5.9 77.4,7.9 72.6,5.9 72.6,0.1 68,0.1 68,8 72.6,9.9 68,11.8 68,19.8 
+			<polygon id="Fill-9" class="st1" points="82.3,0.1 82.3,5.9 77.4,7.9 72.6,5.9 72.6,0.1 68,0.1 68,8 72.6,9.9 68,11.8 68,19.8 
 				72.6,19.8 72.6,13.9 77.4,11.9 82.3,13.9 82.3,19.8 86.9,19.8 86.9,11.8 82.3,9.9 86.9,8 86.9,0.1 			"/>
-			<polygon id="Fill-10" class="st0" points="72.9,2.7 82,2.7 82,1.6 72.9,1.6 			"/>
-			<polygon id="Fill-11" class="st0" points="72.9,4.9 82,4.9 82,3.8 72.9,3.8 			"/>
-			<polygon id="Fill-12" class="st0" points="72.9,15.8 82,15.8 82,14.8 72.9,14.8 			"/>
-			<polygon id="Fill-13" class="st0" points="72.9,18 82,18 82,17 72.9,17 			"/>
+			<polygon id="Fill-10" class="st2" points="72.9,2.7 82,2.7 82,1.6 72.9,1.6 			"/>
+			<polygon id="Fill-11" class="st2" points="72.9,4.9 82,4.9 82,3.8 72.9,3.8 			"/>
+			<polygon id="Fill-12" class="st2" points="72.9,15.8 82,15.8 82,14.8 72.9,14.8 			"/>
+			<polygon id="Fill-13" class="st2" points="72.9,18 82,18 82,17 72.9,17 			"/>
 		</g>
 	</g>
 </g>
