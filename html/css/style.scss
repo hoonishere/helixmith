@@ -5,6 +5,7 @@
 $white: #fff;
 $black: #333333;
 $lightGray: #B5B5B5;
+$gray: #999999;
 $pointColor1: #C54344;
 $pointColor2: #992122;
 $breakpoint-mobile: 320px;
@@ -63,8 +64,16 @@ button,input,select{
   margin-top: 50px !important;
 }
 
+.marginTop80{
+  margin-top: 80px!important;
+}
+
 .marginBottom30 {
   margin-bottom: 30px !important;
+}
+
+.maxWidth100{
+  max-width: 100%!important;
 }
 
 .headImage1 {
@@ -115,6 +124,10 @@ button,input,select{
   font-weight: 700;
 }
 
+.grayText{
+  color: $gray;
+}
+
 /*//common*/
 
 /*본문 스타일*/
@@ -153,6 +166,9 @@ a {
         font-weight: 500;
         font-size: 20px;
         color: $white;
+        img{
+          height: 15px;
+        }
 
         a {
           color: $white;
@@ -567,7 +583,8 @@ a {
   /*1*/
   .first {
     .text {
-      padding: 0 50px 50px 50px;
+      max-width: 900px;
+      padding: 0 0 50px 0;
       box-sizing: border-box;
       /*모바일*/
       @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
@@ -618,7 +635,7 @@ a {
   /*//1*/
   /*team member*/
   .member {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
 
@@ -652,8 +669,8 @@ a {
   /*1*/
   .first {
     .text {
-      padding: 0 50px 50px 50px;
-      max-width: 850px;
+      padding: 0 0 50px 0;
+      max-width: 900px;
       /*모바일*/
       @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
         padding: 0 30px 50px 30px;
@@ -690,6 +707,10 @@ a {
         color: $pointColor1;
         text-decoration: underline;
       }
+    }
+    .iconBox{
+      text-align: center;
+      margin-bottom: 50px;
     }
   }
 
