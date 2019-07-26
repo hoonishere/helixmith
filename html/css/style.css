@@ -41,6 +41,10 @@ button, input, select {
   color: #C54344;
 }
 
+.textAlignLeft {
+  text-align: left !important;
+}
+
 .marginTop30 {
   margin-top: 30px !important;
 }
