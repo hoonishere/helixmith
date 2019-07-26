@@ -9,6 +9,7 @@ $lightGray2: #eeeeee;
 $gray: #999999;
 $pointColor1: #C54344;
 $pointColor2: #992122;
+$pointColor3: #000;
 $breakpoint-mobile: 320px;
 $breakpoint-tablet: 640px;
 $breakpoint-desktop: 1024px;
@@ -53,6 +54,10 @@ button,input,select{
   color: $pointColor1;
 }
 
+.textAlignLeft{
+  text-align: left!important;
+}
+
 .marginTop30 {
   margin-top: 30px !important;
 }
@@ -79,6 +84,11 @@ button,input,select{
 
 .headImage1 {
   background: url("../img/head_img.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.headImage1Alt{
+  background: url("../img/head_img_new.jpg") no-repeat center center;
   background-size: cover;
 }
 
