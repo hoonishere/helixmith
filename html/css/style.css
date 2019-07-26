@@ -70,6 +70,11 @@ button, input, select {
   background-size: cover;
 }
 
+.headImage1Alt {
+  background: url("../img/head_img_new.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 .headImage2 {
   background: url("../img/head_img2.jpg") no-repeat center center;
   background-size: cover;
