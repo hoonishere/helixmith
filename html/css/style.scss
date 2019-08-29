@@ -67,11 +67,11 @@ button,input,select{
 }
 
 .marginTop50 {
-  margin-top: 50px !important;
+  margin-top: 60px !important;
 }
 
 .marginTop80{
-  margin-top: 80px!important;
+  margin-top: 90px!important;
 }
 
 .marginBottom30 {
@@ -718,6 +718,9 @@ a {
         font-size: 15px;
         line-height: 30px;
         margin-top: 20px;
+        &:first-child{
+          margin-top: 0;
+        }
       }
 
       a {
@@ -916,7 +919,7 @@ a {
       img {
         width: 100%;
         max-width: 400px;
-        margin: 25px 0;
+        margin: 35px 0;
       }
 
       h1 {
@@ -927,6 +930,10 @@ a {
         font-size: 15px;
         line-height: 30px;
         text-align: left;
+      }
+
+      .fullImg{
+        max-width: 850px;
       }
     }
   }
