@@ -22,7 +22,7 @@ button, input, select {
   height: 1px;
   max-width: 1160px;
   background: #D3D3D3;
-  margin: 50px auto;
+  margin: 60px auto;
 }
 
 .fontBold {
@@ -182,7 +182,7 @@ a {
 }
 
 .headNavigation .inside .menus .left img {
-  height: 15px;
+  height: 20px;
 }
 
 .headNavigation .inside .menus .left a {
@@ -506,7 +506,7 @@ a {
 .section .second .content ul .divider {
   width: 30px;
   height: 1px;
-  margin: 30px auto;
+  margin: 50px auto;
   background: #B5B5B5;
 }
 
@@ -599,6 +599,7 @@ a {
 
 .footer .menus {
   font-size: 15px;
+  text-align: right;
 }
 
 .footer .menus a {
@@ -611,13 +612,17 @@ a {
   color: #C54344;
 }
 
+.footer .menus img {
+  height: 20px;
+}
+
 .footer .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 12px;
   line-height: 24px;
-  margin-top: 30px;
+  margin: 30px 0 60px;
   /*모바일*/
   /*//모바일*/
 }
