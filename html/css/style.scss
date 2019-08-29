@@ -553,6 +553,9 @@ a {
     font-size: 12px;
     line-height: 24px;
     margin: 30px 0 60px;
+    img{
+      height: 20px;
+    }
     /*모바일*/
     @media only screen and (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-desktop}) {
       display: block;
