@@ -3,16 +3,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Oswald:500&display=swap");
 /*common*/
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
-button,
-input,
-select {
+button, input, select {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -24,7 +21,7 @@ select {
   width: 100%;
   height: 1px;
   max-width: 1160px;
-  background: #d3d3d3;
+  background: #D3D3D3;
   margin: 60px auto;
 }
 
@@ -41,7 +38,7 @@ select {
 }
 
 .pointColorText {
-  color: #c54344;
+  color: #C54344;
 }
 
 .textAlignLeft {
@@ -127,7 +124,7 @@ select {
 }
 
 .headText {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -178,7 +175,7 @@ a {
 
 .headNavigation .inside .menus .left {
   width: 20%;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 20px;
   color: #fff;
@@ -221,8 +218,8 @@ a {
   padding-top: 20px;
   z-index: 1;
   opacity: 0;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
 }
 
 .headNavigation .inside .menus .right ul li .dropdown-content .box {
@@ -242,8 +239,8 @@ a {
 }
 
 .headNavigation .inside .menus .right ul li:hover {
-  -webkit-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
 }
 
 .headNavigation .inside .menus .right ul li:hover .dropdown-content {
@@ -290,7 +287,6 @@ a {
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .headNavigation .inside .content h1 {
     font-size: 60px;
-    line-height: 80px;
   }
 }
 
@@ -372,7 +368,6 @@ a {
   .section .first .left {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 25px;
   }
 }
 
@@ -406,12 +401,12 @@ a {
 
 .section .first .right a {
   color: #333333;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 .section .first .right a:hover {
-  color: #c54344;
+  color: #C54344;
 }
 
 .section .first .right .button {
@@ -442,9 +437,7 @@ a {
 }
 
 .section .second .content ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   /*모바일*/
   /*//모바일*/
 }
@@ -460,42 +453,31 @@ a {
 }
 
 .section .second .content ul li {
-  width: 33.3%;
+  width: 100%;
+  padding: 25px;
   text-align: center;
-  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-  transition: -webkit-box-shadow 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
-  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  -webkit-transition: -webkit-box-shadow .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  transition: -webkit-box-shadow .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out, transform .2s ease-in-out, -webkit-box-shadow .2s ease-in-out, -webkit-transform .2s ease-in-out;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #fff;
-  border: 1px solid #e4e4e4;
-  margin-bottom: 15px;
-  margin-right: 15px;
-  min-height: 380px;
-  /*모바일*/
-  /*//모바일*/
+  border: 2px solid #e4e4e4;
+  margin-bottom: 10px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
-  .section .second .content ul li {
-    width: 100%;
-  }
+.section .second .content ul li:last-child {
+  margin-bottom: 0;
 }
 
-.section .second .content ul li .text {
-  padding: 25px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.section .second .content ul li .text h2 {
+.section .second .content ul li h2 {
   font-weight: 400;
-  color: #b5b5b5;
+  color: #B5B5B5;
   font-size: 12px;
 }
 
-.section .second .content ul li .text h1 {
+.section .second .content ul li h1 {
   color: #333333;
   font-size: 25px;
   font-weight: 700;
@@ -503,13 +485,15 @@ a {
   margin-bottom: 15px;
 }
 
-.section .second .content ul li .text p {
+.section .second .content ul li p {
   font-size: 15px;
   line-height: 30px;
 }
 
 .section .second .content ul li img {
+  margin-top: 25px;
   width: 100%;
+  max-width: 180px;
 }
 
 .section .second .content ul li:hover {
@@ -523,7 +507,7 @@ a {
   width: 30px;
   height: 1px;
   margin: 50px auto;
-  background: #b5b5b5;
+  background: #B5B5B5;
 }
 
 .section .third .head {
@@ -588,12 +572,12 @@ a {
 
 .section .third .content ul li a {
   color: #333333;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 .section .third .content ul li a:hover {
-  color: #c54344;
+  color: #C54344;
 }
 
 /*footer*/
@@ -620,12 +604,12 @@ a {
 
 .footer .menus a {
   color: #333333;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 .footer .menus a:hover {
-  color: #c54344;
+  color: #C54344;
 }
 
 .footer .menus img {
@@ -725,7 +709,7 @@ a {
 .aboutSection .first .text h1 {
   font-size: 35px;
   line-height: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .aboutSection .first .text p {
@@ -735,7 +719,7 @@ a {
 }
 
 .aboutSection .first .text a {
-  color: #c54344;
+  color: #C54344;
   text-decoration: underline;
 }
 
@@ -772,7 +756,7 @@ a {
 }
 
 .aboutSection .member h2 {
-  color: #c54344;
+  color: #C54344;
   font-size: 15px;
   margin: 20px 0;
 }
@@ -838,7 +822,7 @@ a {
 }
 
 .vm202Section .first .text a {
-  color: #c54344;
+  color: #C54344;
   text-decoration: underline;
 }
 
@@ -927,7 +911,7 @@ a {
 }
 
 .contactSection .first .text a {
-  color: #c54344;
+  color: #C54344;
   text-decoration: underline;
 }
 
@@ -1046,7 +1030,7 @@ a {
 }
 
 .contactSection .locationTable .full .inside a {
-  color: #c54344;
+  color: #C54344;
   text-decoration: underline;
 }
 
@@ -1095,12 +1079,12 @@ a {
   text-align: center;
   font-weight: 700;
   padding: 20px 50px;
-  background: #c54344;
+  background: #C54344;
   color: #fff;
   max-width: 230px;
   border-radius: 50px;
-  -webkit-transition: background 0.2s ease-in-out;
-  transition: background 0.2s ease-in-out;
+  -webkit-transition: background .2s ease-in-out;
+  transition: background .2s ease-in-out;
 }
 
 .contactSection .buttonBox .button:hover {
@@ -1156,4 +1140,4 @@ a {
 
 /*//mobile Submenu*/
 /*//서브페이지*/
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_old.css.map */
