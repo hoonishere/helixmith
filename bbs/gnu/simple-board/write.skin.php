@@ -33,17 +33,6 @@
 				$option_hidden = '';
 				if ($is_notice || $is_html || $is_secret || $is_mail) {
 						$option = '';
-						if ($is_notice) {
-								$option .= "\n".'<input type="checkbox" id="notice" name="notice" value="1" '.$notice_checked.'>'."\n".'<label for="notice">공지</label>';
-						}
-
-						if ($is_html) {
-								if ($is_dhtml_editor) {
-										$option_hidden .= '<input type="hidden" value="html1" name="html">';
-								} else {
-										$option .= "\n".'<input type="checkbox" id="html" name="html" onclick="html_auto_br(this);" value="'.$html_value.'" '.$html_checked.'>'."\n".'<label for="html">HTML</label>';
-								}
-						}
 
 						if ($is_secret) {
 								if ($is_admin || $is_secret==1) {
@@ -65,7 +54,7 @@
 				<div class="bo_w_select write_div">
 						<label for="ca_name"  class="sound_only">분류<strong>필수</strong></label>
 						<select name="ca_name" id="ca_name" required>
-								<option value="">분류를 선택하세요</option>
+								<option value="">category</option>
 								<?php echo $category_option ?>
 						</select>
 				</div>
@@ -106,7 +95,7 @@
 						<!-- <label for="wr_subject" class="sound_only">제목<strong>필수</strong></label> -->
 						
 						<div id="autosave_wrapper write_div">
-								<input type="text" name="wr_subject" value="<?php echo $subject ?>" id="wr_subject" required class="frm_input full_input required" size="50" maxlength="255" placeholder="제목">
+								<input type="text" name="wr_subject" value="<?php echo $subject ?>" id="wr_subject" required class="frm_input full_input required" size="50" maxlength="255" placeholder="title">
 								<?php if ($is_member) { // 임시 저장된 글 기능 ?>
 								<script src="<?php echo G5_JS_URL; ?>/autosave.js"></script>
 								<?php if($editor_content_js) echo $editor_content_js; ?>
@@ -172,8 +161,8 @@
 
 
 				<div class="btn_confirm write_div">
-						<a href="./board.php?bo_table=<?php echo $bo_table ?>" class="btn_cancel btn">취소</a>
-						<input type="submit" value="작성완료" id="btn_submit" accesskey="s" class="btn_submit btn">
+						<a href="./board.php?bo_table=<?php echo $bo_table ?>" class="btn_cancel btn">cancel</a>
+						<input type="submit" value="submit" id="btn_submit" accesskey="s" class="btn_submit btn">
 				</div>
 				</form>
 

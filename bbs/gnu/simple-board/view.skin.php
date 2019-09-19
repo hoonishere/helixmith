@@ -31,13 +31,8 @@
 				</header>
 
 				<section id="bo_v_info">
-						<h2>페이지 정보</h2>
 						<span class="sound_only">작성자</span> <strong><?php echo $view['name'] ?><!-- <?php if ($is_ip_view) { echo "&nbsp;($ip)"; } ?> --></strong>
-						<!-- <span class="sound_only">댓글</span> -->
-						<!-- <strong><a href="#bo_vc"> <i class="fa fa-commenting-o" aria-hidden="true"></i> <?php echo number_format($view['wr_comment']) ?>건</a></strong> -->
-						<span class="sound_only">조회</span><strong><?php echo number_format($view['wr_hit']) ?>회</strong>
 						<strong class="if_date"><span class="sound_only">작성일</span> <?php echo date("y-m-d H:i", strtotime($view['wr_datetime'])) ?></strong>
-
 				</section>
 
 				<section id="bo_v_atc">
@@ -179,17 +174,17 @@
 						?>
 
 						<ul class="bo_v_left">
-								<?php if ($update_href) { ?><li><a href="<?php echo $update_href ?>" class="btn_b01 btn">수정</a></li><?php } ?>
-								<?php if ($delete_href) { ?><li><a href="<?php echo $delete_href ?>" class="btn_b01 btn" onclick="del(this.href); return false;">삭제</a></li><?php } ?>
+								<?php if ($update_href) { ?><li><a href="<?php echo $update_href ?>" class="btn_b01 btn">modify</a></li><?php } ?>
+								<?php if ($delete_href) { ?><li><a href="<?php echo $delete_href ?>" class="btn_b01 btn" onclick="del(this.href); return false;">delete</a></li><?php } ?>
 								<!-- <?php if ($copy_href) { ?><li><a href="<?php echo $copy_href ?>" class="btn_admin btn" onclick="board_move(this.href); return false;">복사</a></li><?php } ?>
 								<?php if ($move_href) { ?><li><a href="<?php echo $move_href ?>" class="btn_admin btn" onclick="board_move(this.href); return false;">이동</a></li><?php } ?> -->
-								<?php if ($search_href) { ?><li><a href="<?php echo $search_href ?>" class="btn_b01 btn">검색</a></li><?php } ?>
+								<?php if ($search_href) { ?><li><a href="<?php echo $search_href ?>" class="btn_b01 btn">search</a></li><?php } ?>
 						</ul>
 
 						<ul class="bo_v_com">
-							 <li><a href="<?php echo $list_href ?>" class="btn_b01 btn">목록</a></li>
-								<!-- <?php if ($reply_href) { ?><li><a href="<?php echo $reply_href ?>" class="btn_b01 btn">답변</a></li><?php } ?> -->
-								<?php if ($write_href) { ?><li><a href="<?php echo $write_href ?>" class="btn_b02 btn">글쓰기</a></li><?php } ?>
+							 <li><a href="<?php echo $list_href ?>" class="btn_b01 btn">list</a></li>
+								<!-- <?php if ($reply_href) { ?><li><a href="<?php echo $reply_href ?>" class="btn_b01 btn">reply</a></li><?php } ?> -->
+								<?php if ($write_href) { ?><li><a href="<?php echo $write_href ?>" class="btn_b02 btn">write</a></li><?php } ?>
 						</ul>
 
 						<?php if ($prev_href || $next_href) { ?>

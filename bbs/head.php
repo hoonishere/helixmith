@@ -14,14 +14,14 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 <!--wrapper-->
 <div class="wrapper">
         <!--headNavigation-->
-        <div class="headNavigation headImage2 wow fadeIn">
+        <div class="headNavigation headImage6 wow fadeIn">
             <!--inside-->
             <div class="inside">
                 <!--menus-->
                 <div class="menus">
                     <!--logo-->
                     <div class="left">
-                        <a href="index.html">
+                        <a href="../index.html">
                             <img src="../img/logo.svg">
                         </a>
                     </div>
@@ -29,27 +29,27 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                     <div class="right">
                         <ul class="pc">
                             <li>
-                                <a href="about_1.html">
+                                <a href="../about_1.html">
                                     About Helixmith
                                 </a>
                                 <div class="dropdown-content">
                                     <div class="box">
-                                        <a href="about_1.html">
+                                        <a href="../about_1.html">
                                             <p>
                                                 Our Company
                                             </p>
                                         </a>
-                                        <a href="about_2.html">
+                                        <a href="../about_2.html">
                                             <p>
                                                 Our People
                                             </p>
                                         </a>
-                                        <a href="about_4.html">
+                                        <a href="../about_4.html">
                                             <p>
                                                 Our Advisors
                                             </p>
                                         </a>
-                                        <a href="about_3.html">
+                                        <a href="../about_3.html">
                                             <p>
                                                 Locations
                                             </p>
@@ -58,37 +58,37 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </div>
                             </li>
                             <li>
-                                <a href="vm202.html">
+                                <a href="../vm202.html">
                                     Flagship Product Engensis
                                 </a>
                                 <div class="dropdown-content">
                                     <div class="box">
-                                        <a href="vm202.html#first">
+                                        <a href="../vm202.html#first">
                                             <p>
                                                 Overview
                                             </p>
                                         </a>
-                                        <a href="vm202_dpn.html#first">
+                                        <a href="../vm202_dpn.html#first">
                                             <p>
                                                 Engensis in DPN
                                             </p>
                                         </a>
-                                        <a href="vm202_dpn.html#second">
+                                        <a href="../vm202_dpn.html#second">
                                             <p>
                                                 Engensis in DFU
                                             </p>
                                         </a>
-                                        <a href="vm202_dpn.html#third">
+                                        <a href="../vm202_dpn.html#third">
                                             <p>
                                                 Engensis in ALS
                                             </p>
                                         </a>
-                                        <a href="vm202_dpn.html#fourth">
+                                        <a href="../vm202_dpn.html#fourth">
                                             <p>
                                                 Engensis in CAD
                                             </p>
                                         </a>
-                                        <a href="vm202_pub.html">
+                                        <a href="../vm202_pub.html">
                                             <p>
                                                 Publications
                                             </p>
@@ -97,22 +97,22 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </div>
                             </li>
                             <li>
-                                <a href="platform.html">
+                                <a href="../platform.html">
                                     Early Phase Programs
                                 </a>
                                 <div class="dropdown-content">
                                     <div class="box">
-                                        <a href="platform.html#first">
+                                        <a href="../platform.html#first">
                                             <p>
                                                 Neuromyon
                                             </p>
                                         </a>
-                                        <a href="platform.html#second">
+                                        <!-- <a href="../platform.html#second">
                                             <p>
                                                 Chimericsmith
                                             </p>
-                                        </a>
-                                        <a href="platform.html#third">
+                                        </a> -->
+                                        <a href="../platform.html#third">
                                             <p>
                                                 Oncosmith
                                             </p>
@@ -126,12 +126,12 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </a>
                             </li> -->
                             <li>
-                                <a href="#">
+                                <a href="/bbs/board.php?bo_table=notice&page=1">
                                     News
                                 </a>
                                 <div class="dropdown-content">
                                     <div class="box">
-                                        <a href="#">
+                                        <a href="/bbs/board.php?bo_table=notice&page=1">
                                             <p>
                                                 News/Investors
                                             </p>
@@ -140,14 +140,14 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </div>
                             </li>
                             <li>
-                                <a href="careers.html">
+                                <a href="../careers.html">
                                     Careers
                                 </a>
                             </li>
                         </ul>
                         <ul class="mobile displayFlex">
                             <li>
-                                <img src="img/mobile_menu_ico.svg" id="showPanel" />
+                                <img src="../img/mobile_menu_ico.svg" id="showPanel" />
                             </li>
                         </ul>
                     </div>

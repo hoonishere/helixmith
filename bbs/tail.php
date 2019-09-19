@@ -86,7 +86,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
             </li>
             <li>
                 <div class="button" id="hidePanel">
-                    <img src="img/close_ico.svg" />
+                    <img src="../img/close_ico.svg" />
                 </div>
             </li>
         </ul>
