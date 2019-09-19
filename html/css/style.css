@@ -790,6 +790,16 @@ a {
   text-align: left;
 }
 
+.aboutSection .contactInfo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.aboutSection .contactInfo a {
+  color: #333333;
+  text-decoration: underline;
+}
+
 /*VM202, Pipeline*/
 .vm202Section {
   width: 100%;

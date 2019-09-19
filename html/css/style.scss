@@ -693,6 +693,16 @@ a {
   }
 
   /*//team member*/
+
+  .contactInfo {
+    font-size: 30px;
+    text-align: center;
+
+    a {
+      color: $black;
+      text-decoration: underline;
+    }
+  }
 }
 
 /*VM202, Pipeline*/
