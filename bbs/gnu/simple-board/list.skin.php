@@ -55,7 +55,7 @@
 										<?php
 										if ($is_category && $list[$i]['ca_name']) {
 										 ?>
-										<a href="<?php echo $list[$i]['ca_name_href'] ?>" class="bo_cate_link"><?php echo $list[$i]['ca_name'] ?></a>
+										<a href="<?php echo $list[$i]['ca_name_href'] ?>" class="bo_cate_link" style="font-weight:bold;"><?php echo $list[$i]['ca_name'] ?></a>
 										<?php } ?>
 												
 												<a href="<?php echo $list[$i]['href'] ?>">

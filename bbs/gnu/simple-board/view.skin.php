@@ -21,7 +21,7 @@
 				<header>
 						<h2 id="bo_v_title">
 								<?php if ($category_name) { ?>
-								<span class="bo_v_cate"><?php echo $view['ca_name']; // 분류 출력 끝 ?></span> 
+								<span class="bo_v_cate" style="font-weight: bold;"><?php echo $view['ca_name']; // 분류 출력 끝 ?></span> 
 								<?php } ?>
 								<span class="bo_v_tit">
 								<?php
@@ -56,7 +56,7 @@
 						 ?>
 
 						<!-- 본문 내용 시작 { -->
-						<div id="bo_v_con"><?php echo get_view_thumbnail($view['content']); ?></div>
+						<div id="bo_v_con"><?php echo get_view_thumbnail($view['wr_content']); ?></div>
 						<?php //echo $view['rich_content']; // {이미지:0} 과 같은 코드를 사용할 경우 ?>
 						<!-- } 본문 내용 끝 -->
 
