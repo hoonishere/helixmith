@@ -300,6 +300,10 @@ a {
   }
 }
 
+.headNavigation .inside .content h2 {
+  margin-top: 35px;
+}
+
 .headNavigation .inside .content p {
   font-size: 16px;
   line-height: 30px;
@@ -792,7 +796,7 @@ a {
 
 .aboutSection .contactInfo {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .aboutSection .contactInfo a {
@@ -1088,7 +1092,10 @@ a {
 
 .contactSection .contactInfo {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
+  padding: 0 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .contactSection .contactInfo a {
