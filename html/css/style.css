@@ -265,6 +265,10 @@ a {
   color: #fff;
 }
 
+.headNavigation .inside .menus .right ul li .smallText {
+  font-size: 13px;
+}
+
 .headNavigation .inside .menus .right .mobile {
   display: none;
   /*모바일*/
@@ -309,6 +313,30 @@ a {
   line-height: 30px;
   color: #fff;
   padding-top: 35px;
+}
+
+.headNavigation .inside .content .downloadButton {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #fff;
+  margin-top: 50px;
+  font-size: 15px;
+  line-height: 30px;
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.headNavigation .inside .content .downloadButton:hover {
+  background: #c54344;
+  border: 1px solid #c54344;
+}
+
+.headNavigation .inside .content a {
+  color: #fff;
 }
 
 .headNavigation .inside .subContent {
@@ -1155,7 +1183,7 @@ a {
 
 #mobileMenu ul li {
   width: 100%;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   font-size: 15px;
   text-align: center;
 }
@@ -1175,6 +1203,10 @@ a {
   border: 1px solid #fff;
   border-radius: 100px;
   cursor: pointer;
+}
+
+#mobileMenu ul li .smallText {
+  font-size: 12px;
 }
 
 /*//mobile Submenu*/

@@ -247,6 +247,11 @@ a {
             a {
               color: $white;
             }
+
+            .smallText{
+              font-size: 13px;
+            }
+
           }
         }
         .mobile {
@@ -286,6 +291,27 @@ a {
         line-height: 30px;
         color: $white;
         padding-top: 35px;
+      }
+
+      .downloadButton{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 300px;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid $white;
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 30px;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+        &:hover{
+          background: $pointColor1;
+          border: 1px solid $pointColor1;
+        }
+      }
+      
+      a{
+        color: $white;
       }
     }
 
@@ -1023,7 +1049,7 @@ a {
     box-sizing: border-box;
     li {
       width: 100%;
-      margin-bottom: 35px;
+      margin-bottom: 25px;
       font-size: 15px;
       text-align: center;
       a {
@@ -1039,6 +1065,9 @@ a {
         border: 1px solid $white;
         border-radius: 100px;
         cursor: pointer;
+      }
+      .smallText{
+        font-size: 12px;
       }
     }
   }

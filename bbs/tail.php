@@ -39,49 +39,64 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
     <!--mobile Menu-->
     <div id="mobileMenu">
         <ul>
-            <li>
-                <a href="about_1.html">
+        <li>
+                <a href="../ourcompany">
                     Our Company
                 </a>
             </li>
             <li>
-                <a href="about_2.html">
+                <a href="../ourpoeple">
                     Team Member
                 </a>
             </li>
             <li>
-                <a href="about_3.html">
+                <a href="../ouradvisors">
+                    Our Advisors
+                </a>
+            </li>
+            <li>
+                <a href="../locations">
                     Locations
                 </a>
             </li>
             <li>
-                <a href="vm202.html">
+                <a href="../engensis">
                     Engensis Overview
                 </a>
             </li>
             <li>
-                <a href="vm202_dpn.html">
-                    Engensis
+                <a href="../engensis_dpn">
+                    DPN, DFU, ALS, CAD
                 </a>
             </li>
             <li>
-                <a href="platform.html">
-                    Platform & Technology
+                <a href="../engensis_pub">
+                    Engensis Publications
                 </a>
             </li>
             <li>
-                <a href="botanicals.html">
-                    CERESMITH
+                <a href="../platform">
+                    Early Phase Programs
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/bbs/board.php?bo_table=notice&page=1">
                     News
                 </a>
             </li>
             <li>
-                <a href="careers.html">
+                <a href="../careers">
                     Careers
+                </a>
+            </li>
+            <li>
+                <a href="../" class="smallText">
+                    English
+                </a>
+            </li>
+            <li>
+                <a href="http://www.viromed21.com" class="smallText" target="_blank">
+                    Korean
                 </a>
             </li>
             <li>

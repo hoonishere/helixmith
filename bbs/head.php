@@ -28,28 +28,28 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                     <!--//logo-->
                     <div class="right">
                         <ul class="pc">
-                            <li>
-                                <a href="../about_1.html">
+                        <li>
+                                <a href="../ourcompany">
                                     About Helixmith
                                 </a>
                                 <div class="dropdown-content">
                                     <div class="box">
-                                        <a href="../about_1.html">
+                                        <a href="../ourcompany">
                                             <p>
                                                 Our Company
                                             </p>
                                         </a>
-                                        <a href="../about_2.html">
+                                        <a href="../ourpeople">
                                             <p>
                                                 Our People
                                             </p>
                                         </a>
-                                        <a href="../about_4.html">
+                                        <a href="../ouradvisors">
                                             <p>
                                                 Our Advisors
                                             </p>
                                         </a>
-                                        <a href="../about_3.html">
+                                        <a href="../locations">
                                             <p>
                                                 Locations
                                             </p>
@@ -58,37 +58,37 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </div>
                             </li>
                             <li>
-                                <a href="../vm202.html">
+                                <a href="../engensis">
                                     Flagship Product Engensis
                                 </a>
                                 <div class="dropdown-content">
                                     <div class="box">
-                                        <a href="../vm202.html#first">
+                                        <a href="../engensis#first">
                                             <p>
                                                 Overview
                                             </p>
                                         </a>
-                                        <a href="../vm202_dpn.html#first">
+                                        <a href="../engensis_dpn#first">
                                             <p>
                                                 Engensis in DPN
                                             </p>
                                         </a>
-                                        <a href="../vm202_dpn.html#second">
+                                        <a href="../engensis_dpn#second">
                                             <p>
                                                 Engensis in DFU
                                             </p>
                                         </a>
-                                        <a href="../vm202_dpn.html#third">
+                                        <a href="../engensis_dpn#third">
                                             <p>
                                                 Engensis in ALS
                                             </p>
                                         </a>
-                                        <a href="../vm202_dpn.html#fourth">
+                                        <a href="../engensis_dpn#fourth">
                                             <p>
                                                 Engensis in CAD
                                             </p>
                                         </a>
-                                        <a href="../vm202_pub.html">
+                                        <a href="../engensis_pub">
                                             <p>
                                                 Publications
                                             </p>
@@ -97,22 +97,22 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </div>
                             </li>
                             <li>
-                                <a href="../platform.html">
+                                <a href="../platform">
                                     Early Phase Programs
                                 </a>
                                 <div class="dropdown-content">
                                     <div class="box">
-                                        <a href="../platform.html#first">
+                                        <a href="../platform#first">
                                             <p>
                                                 Neuromyon
                                             </p>
                                         </a>
-                                        <!-- <a href="../platform.html#second">
+                                        <!-- <a href="platform.html#second">
                                             <p>
                                                 Chimericsmith
                                             </p>
                                         </a> -->
-                                        <a href="../platform.html#third">
+                                        <a href="../platform#third">
                                             <p>
                                                 Oncosmith
                                             </p>
@@ -140,9 +140,28 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </div>
                             </li>
                             <li>
-                                <a href="../careers.html">
+                                <a href="../careers">
                                     Careers
                                 </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Lang.
+                                </a>
+                                <div class="dropdown-content">
+                                    <div class="box">
+                                        <a href="../">
+                                            <p>
+                                                English
+                                            </p>
+                                        </a>
+                                        <a href="http://www.viromed21.com" target="_blank">
+                                            <p>
+                                                Korean
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                         <ul class="mobile displayFlex">
