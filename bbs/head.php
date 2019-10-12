@@ -21,7 +21,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                 <div class="menus">
                     <!--logo-->
                     <div class="left">
-                        <a href="../index.html">
+                        <a href="../">
                             <img src="../img/logo.svg">
                         </a>
                     </div>
@@ -145,23 +145,13 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    Lang.
+                                <a href="../" class="smallText">
+                                    En
                                 </a>
-                                <div class="dropdown-content">
-                                    <div class="box">
-                                        <a href="../">
-                                            <p>
-                                                English
-                                            </p>
-                                        </a>
-                                        <a href="http://www.viromed21.com" target="_blank">
-                                            <p>
-                                                Korean
-                                            </p>
-                                        </a>
-                                    </div>
-                                </div>
+                                /
+                                <a href="../kr" class="smallText">
+                                    Kr
+                                </a>
                             </li>
                         </ul>
                         <ul class="mobile displayFlex">
