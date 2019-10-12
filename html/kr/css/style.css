@@ -820,6 +820,7 @@ a {
   line-height: 30px;
   color: #333333;
   text-align: left;
+  display: inline-block;
 }
 
 .aboutSection .contactInfo {
