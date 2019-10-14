@@ -1,4 +1,4 @@
-fetch("./header_menus.html")
+fetch("./header_menus")
     .then(response => {
         return response.text()
     })
