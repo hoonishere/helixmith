@@ -27,7 +27,7 @@
                     </div>
                     <!--//logo-->
                     <div class="right">
-                        <header_menus></header_menus>
+                        <div id="includedHeader"></div>
                         <ul class="mobile displayFlex">
                             <li>
                                 <img src="img/mobile_menu_ico.svg" id="showPanel" />
@@ -124,7 +124,7 @@
         <div class="divider"></div>
         <!--//divider-->
         <!--5-->
-        <!-- <div class="aboutSection">
+        <div class="aboutSection">
             <div class="member wow fadeIn">
                 <h1 class="headText">
                     Nathaniel Katz MD
@@ -141,13 +141,13 @@
                     Clinical Journal of Pain, and Associate Editor (Pain) for the Encyclopedia of Neurological Sciences.
                 </p>
             </div>
-        </div> -->
+        </div>
         <!--//5-->
         <!--divider-->
-        <!-- <div class="divider"></div> -->
+        <div class="divider"></div>
         <!--//divider-->
         <!--6-->
-        <!-- <div class="aboutSection">
+        <div class="aboutSection">
             <div class="member wow fadeIn">
                 <h1 class="headText">
                     Jeffrey Gudin MD
@@ -165,20 +165,20 @@
                     pain management, palliative care and addiction medicine.
                 </p>
             </div>
-        </div> -->
+        </div>
         <!--//6-->
         <!--divider-->
         <!-- <div class="divider"></div> -->
         <!--//divider-->
         <!--footer-->
-        <footer></footer>
+        <div id="includedFooter"></div>
         <!--//footer-->
     </div>
     <!--//wrapper-->
     <!--mobile Menu-->
     <div id="mobileMenu">
         <ul>
-            <mobile_menu></mobile_menu>
+            <div id="includedMobileMenu"></div>
             <li>
                 <div class="button" id="hidePanel">
                     <img src="img/close_ico.svg" />
@@ -190,9 +190,6 @@
     <!--js-->
     <script src="js/wow.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/mobile_menu.js"></script>
-    <script src="js/footer.js"></script>
     <script>
         wow = new WOW(
             {
@@ -215,6 +212,12 @@
                 $("#mobileMenu").hide();
             });
 
+        });
+
+        $(function(){
+            $("#includedHeader").load("https://helixmith.com/kr/header_menus");
+            $("#includedFooter").load("https://helixmith.com/kr/footer");
+            $("#includedMobileMenu").load("https://helixmith.com/kr/mobile_menu");
         });
     </script>
     <!--//js-->

@@ -27,7 +27,7 @@
                     </div>
                     <!--//logo-->
                     <div class="right">
-                        <header_menus></header_menus>
+                        <div id="includedHeader"></div>
                         <ul class="mobile displayFlex">
                             <li>
                                 <img src="img/mobile_menu_ico.svg" id="showPanel" />
@@ -53,11 +53,11 @@
                 <!--text-->
                 <div class="text wow fadeIn">
                     <h1 class="">
-                        헬릭스미스와 함께하세요
+                        헬릭스미스와 함께 하세요
                     </h1>
                     <p>
                         서울에 본사를 두고 미국에서 임상 개발을 진행 중인 헬릭스미스는 유전자치료제 분야에서 혁신을 선도하며 빠르게 성장하고 있습니다. 다양한 배경과 전문성을 갖춘 동료들과 함께
-                        역동적으로 변화하는 환경에서 능력과 창의력을 발휘할 최고의 인재를 기다립니다. 헬릭스미스에서 일생일대의 기회를 찾고 싶은 분들은 아래 이메일로 연락 주십시오.
+                        역동적으로 변화하는 환경에서 능력과 창의력을 발휘할 최고의 인재를 기다립니다. 헬릭스미스에서 마음껏 능력을 펼치고 싶으신 분은 아래 이메일로 연락 주십시오.
                     </p>
                 </div>
                 <!--//text-->
@@ -152,14 +152,14 @@
         <div class="divider"></div>
         <!--//divider-->
         <!--footer-->
-        <footer></footer>
+        <div id="includedFooter"></div>
         <!--//footer-->
     </div>
     <!--//wrapper-->
     <!--mobile Menu-->
     <div id="mobileMenu">
         <ul>
-            <mobile_menu></mobile_menu>
+            <div id="includedMobileMenu"></div>
             <li>
                 <div class="button" id="hidePanel">
                     <img src="img/close_ico.svg" />
@@ -172,9 +172,6 @@
     <script src="js/wow.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/mobile_menu.js"></script>
-    <script src="js/footer.js"></script>
     <script>
         wow = new WOW(
             {
@@ -197,6 +194,12 @@
                 $("#mobileMenu").hide();
             });
 
+        });
+
+        $(function(){
+            $("#includedHeader").load("https://helixmith.com/kr/header_menus");
+            $("#includedFooter").load("https://helixmith.com/kr/footer");
+            $("#includedMobileMenu").load("https://helixmith.com/kr/mobile_menu");
         });
     </script>
     <!--//js-->

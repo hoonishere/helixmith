@@ -59,7 +59,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
     </li>
     <li>
         <a href="../kr/engensis">
-            선도제품 엔젠시스(Engensis)
+            선도제품 엔젠시스(Engensis®)
         </a>
         <div class="dropdown-content">
             <div class="box">
@@ -90,7 +90,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                 </a>
                 <a href="../kr/engensis_pub">
                     <p>
-                        출판물
+                        논문
                     </p>
                 </a>
             </div>

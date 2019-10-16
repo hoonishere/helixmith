@@ -27,7 +27,7 @@
                     </div>
                     <!--//logo-->
                     <div class="right">
-                        <header_menus></header_menus>
+                        <div id="includedHeader"></div>
                         <ul class="mobile displayFlex">
                             <li>
                                 <img src="img/mobile_menu_ico.svg" id="showPanel" />
@@ -136,14 +136,14 @@
         <div class="divider"></div>
         <!--//divider-->
         <!--footer-->
-        <footer></footer>
+        <div id="includedFooter"></div>
         <!--//footer-->
     </div>
     <!--//wrapper-->
     <!--mobile Menu-->
     <div id="mobileMenu">
         <ul>
-            <mobile_menu></mobile_menu>
+            <div id="includedMobileMenu"></div>
             <li>
                 <div class="button" id="hidePanel">
                     <img src="img/close_ico.svg" />
@@ -155,9 +155,6 @@
     <!--js-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/wow.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/mobile_menu.js"></script>
-    <script src="js/footer.js"></script>
     <script>
         wow = new WOW(
             {
@@ -188,6 +185,12 @@
                 $("#mobileMenu").hide();
             });
 
+        });
+
+        $(function(){
+            $("#includedHeader").load("https://helixmith.com/kr/header_menus");
+            $("#includedFooter").load("https://helixmith.com/kr/footer");
+            $("#includedMobileMenu").load("https://helixmith.com/kr/mobile_menu");
         });
     </script>
     <!--//js-->
