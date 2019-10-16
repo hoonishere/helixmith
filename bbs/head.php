@@ -5,10 +5,13 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 <head>
     <meta charset="UTF-8">
     <title>HELIXMITH</title>
+    <meta name="robots" content="noindex,nofollow">
     <link type="text/css" rel="stylesheet" href="../css/reset.css" />
     <link type="text/css" rel="stylesheet" href="../css/style.css" />
     <link type="text/css" rel="stylesheet" href="../css/animate.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <!--wrapper-->
