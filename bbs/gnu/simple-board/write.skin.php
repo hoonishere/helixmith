@@ -132,7 +132,6 @@
 						<input type="text" name="wr_link<?php echo $i ?>" value="<?php if($w=="u"){echo $write['wr_link'.$i];} ?>" id="wr_link<?php echo $i ?>" class="frm_input full_input" size="50">
 				</div>
 				<?php } ?>
-				<!--
 				<?php for ($i=0; $is_file && $i<$file_count; $i++) { ?>
 				<div class="bo_w_flie write_div">
 						<div class="file_wr write_div">
@@ -151,7 +150,6 @@
 						
 				</div>
 				<?php } ?>
-				-->
 
 				<?php if ($is_use_captcha) { //자동등록방지  ?>
 				<div class="write_div">

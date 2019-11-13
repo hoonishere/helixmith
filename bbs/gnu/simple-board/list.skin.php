@@ -64,7 +64,7 @@
 																if (isset($list[$i]['icon_secret'])) echo rtrim($list[$i]['icon_secret']);
 														 ?>
 
-														<?php echo conv_subject($list[$i]['wr_subject'], 15, "..."); ?>
+														<?php echo conv_subject($list[$i]['wr_subject'], 40, "..."); ?>
 													 
 												</a>
 										</div>
