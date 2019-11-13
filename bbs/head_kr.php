@@ -123,11 +123,35 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
             </div>
         </div>
     </li>
-    <!-- <li>
-                        <a href="botanicals.html">
-                            CERESMITH
-                        </a>
-                    </li> -->
+    <li>
+        <a href="ceresmith">
+            CERESMITH
+        </a>
+        <div class="dropdown-content">
+            <div class="box">
+                <a href="../kr/ceresmith#first">
+                    <p>
+                        혁신적 신약
+                    </p>
+                </a>
+                <a href="../kr/ceresmith#second">
+                    <p>
+                        건강기능식품
+                    </p>
+                </a>
+                <a href="../kr/ceresmith#third">
+                    <p>
+                        천연화장품
+                    </p>
+                </a>
+                <a href="http://www.curemall.co.kr" target="_blank">
+                    <p>
+                        큐어몰
+                    </p>
+                </a>
+            </div>
+        </div>
+    </li>
     <li>
         <a href="/bbs/board.php?bo_table=notice_kr">
             공지/뉴스
