@@ -22,13 +22,12 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
             </div>
             <div class="info">
                 <div class="left">
-                    서울특별시 관악구 관악로 1 서울대학교 203동 5층
-                    08826, Republic of Korea
-                    <br>
-                    10390 Pacific Center Court
-                    San Diego, California 92121, United States
-                    <br>
-                     Tel. 82.2.2102.7200 / Fax. 82.2.873.8022 / Email. contact@helixmith.com
+                    우편번호 07794 서울특별시 강서구 마곡중앙8로7길 21, 한국
+            <br>
+            10390 Pacific Center Court
+            San Diego, California 92121, United States
+            <br>
+            Tel. 82.2.2102.7200 / Fax. 82.2.873.8022 / Email. contact@helixmith.com
                 </div>
                 <div class="right">
                     <img src="../img/logo_footer.svg" /><br>

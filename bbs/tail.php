@@ -22,10 +22,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
             </div>
             <div class="info">
                 <div class="left">
-                    5th Fl. Bldg. 203 Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 00826, Republic of
-                    Korea<br>
+                    21, Magokjungang 8-ro 7-gil, Gangseo-gu, Seoul 07794, Korea<br>
                     10390 Pacific Center Ct., San Diego, CA, 92121, US<br>
-                    Tel. 82.2.2102.7200 / Fax. 82.2.873.8022 / Email. hxcontact@helixmith.com
+                    Tel. 82.2.2102.7200 / Fax. 82.2.873.8022 / Email. contact@helixmith.com
                 </div>
                 <div class="right">
                     <img src="../img/logo_footer.svg" /><br>
